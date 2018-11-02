@@ -1,0 +1,20 @@
+{
+    "results": [
+        {
+            "Cataract Surgery": "CATARACT SURGERY",
+            "Primary Open-Glaucoma": "PRIMARY OPEN GLAUCOMA",
+            "Adult Primary Rhegmatogenous": "ADULT PRIMARY RHEGMATOGENOUS",
+            "Diabetes Eye Exam": "DIABETES EYE EXAM",
+            "Age Related Macular Degeneration": "AGE RELATED MACULAR DEGENERATION"
+        }
+    ],
+    "results1": [
+        {
+            "ID1": "389",
+            "ID2": "141",
+            "ID3": "384",
+            "ID4": "117",
+            "ID5": "140"
+        }
+    ]
+}

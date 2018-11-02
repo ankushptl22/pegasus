@@ -1,0 +1,240 @@
+[
+  {
+    "period": 2016,
+    "counts": 20,
+    "level1": [
+      {
+        "period": "Q1",
+        "counts": 4,
+        "level2": [
+          {
+            "period": "Jan",
+            "counts": 2
+          },
+          {
+            "period": "Feb",
+            "counts": 1
+          },
+          {
+            "period": "Mar",
+            "counts": 1
+          }
+        ]
+      },
+      {
+        "period": "Q2",
+        "counts": 6,
+        "level2": [
+          {
+            "period": "Apr",
+            "counts": 2
+          },
+          {
+            "period": "May",
+            "counts": 1
+          },
+          {
+            "period": "Jun",
+            "counts": 1
+          }
+        ]
+      },
+      {
+        "period": "Q3",
+        "counts": 3,
+        "level2": [
+          {
+            "period": "Jul",
+            "counts": 2
+          },
+          {
+            "period": "Aug",
+            "counts": 1
+          },
+          {
+            "period": "Sep",
+            "counts": 1
+          }
+        ]
+      },
+      {
+        "period": "Q4",
+        "counts": 3,
+        "level2": [
+          {
+            "period": "Oct",
+            "counts": 2
+          },
+          {
+            "period": "Nov",
+            "counts": 1
+          },
+          {
+            "period": "Dec",
+            "counts": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period": 2017,
+    "counts": 26.2,
+    "url": "#",
+    "description": "click to drill-down",
+    "level1": [
+      {
+        "period": "Q1",
+        "counts": 6,
+        "level2": [
+          {
+            "period": "Jan",
+            "counts": 2
+          },
+          {
+            "period": "Feb",
+            "counts": 1
+          },
+          {
+            "period": "Mar",
+            "counts": 1
+          }
+        ]
+      },
+      {
+        "period": "Q2",
+        "counts": 7,
+        "level2": [
+          {
+            "period": "Apr",
+            "counts": 3
+          },
+          {
+            "period": "May",
+            "counts": 1
+          },
+          {
+            "period": "Jun",
+            "counts": 3
+          }
+        ]
+      },
+      {
+        "period": "Q3",
+        "counts": 5,
+        "level2": [
+          {
+            "period": "Jul",
+            "counts": 2
+          },
+          {
+            "period": "Aug",
+            "counts": 1
+          },
+          {
+            "period": "Sep",
+            "counts": 1
+          }
+        ]
+      },
+      {
+        "period": "Q4",
+        "counts": 8,
+        "level2": [
+          {
+            "period": "Oct",
+            "counts": 3
+          },
+          {
+            "period": "Nov",
+            "counts": 2
+          },
+          {
+            "period": "Dec",
+            "counts": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "period": 2018,
+    "counts": 100,
+    "url": "#",
+    "description": "click to drill-down",
+    "level1": [
+      {
+        "period": "Q1",
+        "counts": 25,
+        "level2": [
+          {
+            "period": "Jan",
+            "counts": 10
+          },
+          {
+            "period": "Feb",
+            "counts": 5
+          },
+          {
+            "period": "Mar",
+            "counts": 10
+          }
+        ]
+      },
+      {
+        "period": "Q2",
+        "counts": 20,
+        "level2": [
+          {
+            "period": "Apr",
+            "counts": 3
+          },
+          {
+            "period": "May",
+            "counts": 7
+          },
+          {
+            "period": "Jun",
+            "counts": 10
+          }
+        ]
+      },
+      {
+        "period": "Q3",
+        "counts": 35,
+        "level2": [
+          {
+            "period": "Jul",
+            "counts": 15
+          },
+          {
+            "period": "Aug",
+            "counts": 8
+          },
+          {
+            "period": "Sep",
+            "counts": 12
+          }
+        ]
+      },
+      {
+        "period": "Q4",
+        "counts": 20,
+        "level2": [
+          {
+            "period": "Oct",
+            "counts": 3
+          },
+          {
+            "period": "Nov",
+            "counts": 9
+          },
+          {
+            "period": "Dec",
+            "counts": 8
+          }
+        ]
+      }
+    ]
+  }
+]

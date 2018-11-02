@@ -1,0 +1,104 @@
+{
+  "labels": {
+    "id": "Pract. ID.",
+    "logo": "../../../assets/svg/call.svg",
+    "name": "Clinic Name",
+    "currentStatus": "Active/In-active Status",
+    "progressStatus": "Status",
+    "address": "Address",
+    "cell": "Contact No.",
+    "mail": "Email ID.",
+    "serviceCount": "Clinician/s",
+    "tinCount": "TIN/s",
+    "locationCount": "Location/s",
+    "ehrCount": "EHR/s"
+  },
+  "data": [
+    {
+      "id": "437102",
+      "logo": "../../../assets/images/logo.jpg",
+      "name": "UCLA Medical Center",
+      "currentStatus": "Active",
+      "progressStatus": "Status 5: Production (Onboard)",
+      "address": "1250 16th street santa monica, CA 90404",
+      "cell": "424-259-6000",
+      "mail": "ulc@gm.com",
+      "serviceCount": "173",
+      "tinCount": "28",
+      "locationCount": "170",
+      "ehrCount": "12"
+    },
+    {
+      "id": "437103",
+      "logo": "../../../assets/images/logo.jpg",
+      "name": "UCLA Hospital",
+      "currentStatus": "Inactive",
+      "progressStatus": "Status 7: Testing (Onboard)",
+      "address": "FIGMD baner pashan road",
+      "cell": "424-259-6000",
+      "mail": "ulcamedicalcenter@gmail.com",
+      "serviceCount": "173",
+      "tinCount": "28",
+      "locationCount": "170",
+      "ehrCount": "12"
+    },
+    
+    {
+      "id": "437102",
+      "logo": "../../../assets/images/logo.jpg",
+      "name": "UCLA Medical Center",
+      "currentStatus": "Active",
+      "progressStatus": "Status 5: Production (Onboard)",
+      "address": "1250 16th street santa monica, CA 90404",
+      "cell": "424-259-6000",
+      "mail": "ulcamedicalcenter@gmail.com",
+      "serviceCount": "173",
+      "tinCount": "28",
+      "locationCount": "170",
+      "ehrCount": "12"
+    },
+    {
+      "id": "437103",
+      "logo": "../../../assets/images/logo.jpg",
+      "name": "UCLA Hospital",
+      "currentStatus": "Inactive",
+      "progressStatus": "Status 7: Testing (Onboard)",
+      "address": "FIGMD baner pashan road",
+      "cell": "424-259-6000",
+      "mail": "ulcamedicalcenter@gmail.com",
+      "serviceCount": "173",
+      "tinCount": "28",
+      "locationCount": "170",
+      "ehrCount": "12"
+    },
+    
+    {
+      "id": "437102",
+      "logo": "../../../assets/images/logo.jpg",
+      "name": "UCLA Medical Center",
+      "currentStatus": "Active",
+      "progressStatus": "Status 5: Production (Onboard)",
+      "address": "1250 16th street santa monica, CA 90404",
+      "cell": "424-259-6000",
+      "mail": "ulcamedicalcenter@gmail.com",
+      "serviceCount": "173",
+      "tinCount": "28",
+      "locationCount": "170",
+      "ehrCount": "12"
+    },
+    {
+      "id": "437103",
+      "logo": "../../../assets/images/logo.jpg",
+      "name": "UCLA Hospital",
+      "currentStatus": "Inactive",
+      "progressStatus": "Status 7: Testing (Onboard)",
+      "address": "FIGMD baner pashan road",
+      "cell": "424-259-6000",
+      "mail": "ulcamedicalcenter@gmail.com",
+      "serviceCount": "173",
+      "tinCount": "28",
+      "locationCount": "170",
+      "ehrCount": "12"
+    }
+  ]
+}

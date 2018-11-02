@@ -1,0 +1,2332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewTable /> renders 1 <ViewTable /> component 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ViewTable
+    ViewTableDataProp={
+      Object {
+        "cols": Array [
+          Object {
+            "key": "_QUARTER",
+            "label": "QUARTER",
+          },
+          Object {
+            "key": "_ALL",
+            "label": "ALL",
+          },
+          Object {
+            "key": "_MET(+)",
+            "label": "MET(+)",
+          },
+          Object {
+            "key": "_NON MET(-)",
+            "label": "NON MET(-)",
+          },
+          Object {
+            "key": "_DEN EXCL",
+            "label": "DEN EXCL",
+          },
+          Object {
+            "key": "_NUM EXCL",
+            "label": "NUM EXCL",
+          },
+          Object {
+            "key": "_PERCENTAGE %",
+            "label": "PERCENTAGE %",
+          },
+        ],
+        "data": Array [
+          Object {
+            "_ALL": "25471",
+            "_DEN EXCL": "1204",
+            "_MET(+)": "204124",
+            "_NON MET(-)": "2013",
+            "_NUM EXCL": "984",
+            "_PERCENTAGE %": "64.67%",
+            "_QUARTER": "2018Q1",
+          },
+          Object {
+            "_ALL": "25472",
+            "_DEN EXCL": "1203",
+            "_MET(+)": "204155",
+            "_NON MET(-)": "2010",
+            "_NUM EXCL": "983",
+            "_PERCENTAGE %": "63.39%",
+            "_QUARTER": "2017Q4",
+          },
+          Object {
+            "_ALL": "25473",
+            "_DEN EXCL": "1202",
+            "_MET(+)": "204122",
+            "_NON MET(-)": "2011",
+            "_NUM EXCL": "982",
+            "_PERCENTAGE %": "62.29%",
+            "_QUARTER": "2017Q3",
+          },
+          Object {
+            "_ALL": "25525",
+            "_DEN EXCL": "1201",
+            "_MET(+)": "204121",
+            "_NON MET(-)": "2012",
+            "_NUM EXCL": "999",
+            "_PERCENTAGE %": "61.71%",
+            "_QUARTER": "2017Q2",
+          },
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "as": "table",
+      "celled": true,
+      "children": Array [
+        <TableHeader
+          as="thead"
+        >
+          <TableRow
+            as="tr"
+            cellAs="td"
+          >
+            <TableHeaderCell
+              as="th"
+            >
+              QUARTER
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              ALL
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              MET(+)
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              NON MET(-)
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              DEN EXCL
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              NUM EXCL
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              PERCENTAGE %
+            </TableHeaderCell>
+          </TableRow>
+        </TableHeader>,
+        <TableBody
+          as="tbody"
+        >
+          <TableRow
+            as="tr"
+            cellAs="td"
+          >
+            <TableCell
+              as="td"
+            >
+              2018Q1
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              25471
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              204124
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              2013
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              1204
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              984
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              64.67%
+            </TableCell>
+          </TableRow>
+          <TableRow
+            as="tr"
+            cellAs="td"
+          >
+            <TableCell
+              as="td"
+            >
+              2017Q4
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              25472
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              204155
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              2010
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              1203
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              983
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              63.39%
+            </TableCell>
+          </TableRow>
+          <TableRow
+            as="tr"
+            cellAs="td"
+          >
+            <TableCell
+              as="td"
+            >
+              2017Q3
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              25473
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              204122
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              2011
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              1202
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              982
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              62.29%
+            </TableCell>
+          </TableRow>
+          <TableRow
+            as="tr"
+            cellAs="td"
+          >
+            <TableCell
+              as="td"
+            >
+              2017Q2
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              25525
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              204121
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              2012
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              1201
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              999
+            </TableCell>
+            <TableCell
+              as="td"
+            >
+              61.71%
+            </TableCell>
+          </TableRow>
+        </TableBody>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "as": "thead",
+          "children": <TableRow
+            as="tr"
+            cellAs="td"
+          >
+            <TableHeaderCell
+              as="th"
+            >
+              QUARTER
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              ALL
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              MET(+)
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              NON MET(-)
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              DEN EXCL
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              NUM EXCL
+            </TableHeaderCell>
+            <TableHeaderCell
+              as="th"
+            >
+              PERCENTAGE %
+            </TableHeaderCell>
+          </TableRow>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "as": "tr",
+            "cellAs": "td",
+            "children": Array [
+              <TableHeaderCell
+                as="th"
+              >
+                QUARTER
+              </TableHeaderCell>,
+              <TableHeaderCell
+                as="th"
+              >
+                ALL
+              </TableHeaderCell>,
+              <TableHeaderCell
+                as="th"
+              >
+                MET(+)
+              </TableHeaderCell>,
+              <TableHeaderCell
+                as="th"
+              >
+                NON MET(-)
+              </TableHeaderCell>,
+              <TableHeaderCell
+                as="th"
+              >
+                DEN EXCL
+              </TableHeaderCell>,
+              <TableHeaderCell
+                as="th"
+              >
+                NUM EXCL
+              </TableHeaderCell>,
+              <TableHeaderCell
+                as="th"
+              >
+                PERCENTAGE %
+              </TableHeaderCell>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "_QUARTER",
+              "nodeType": "function",
+              "props": Object {
+                "as": "th",
+                "children": "QUARTER",
+              },
+              "ref": null,
+              "rendered": "QUARTER",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "_ALL",
+              "nodeType": "function",
+              "props": Object {
+                "as": "th",
+                "children": "ALL",
+              },
+              "ref": null,
+              "rendered": "ALL",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "_MET(+)",
+              "nodeType": "function",
+              "props": Object {
+                "as": "th",
+                "children": "MET(+)",
+              },
+              "ref": null,
+              "rendered": "MET(+)",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "_NON MET(-)",
+              "nodeType": "function",
+              "props": Object {
+                "as": "th",
+                "children": "NON MET(-)",
+              },
+              "ref": null,
+              "rendered": "NON MET(-)",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "_DEN EXCL",
+              "nodeType": "function",
+              "props": Object {
+                "as": "th",
+                "children": "DEN EXCL",
+              },
+              "ref": null,
+              "rendered": "DEN EXCL",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "_NUM EXCL",
+              "nodeType": "function",
+              "props": Object {
+                "as": "th",
+                "children": "NUM EXCL",
+              },
+              "ref": null,
+              "rendered": "NUM EXCL",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "_PERCENTAGE %",
+              "nodeType": "function",
+              "props": Object {
+                "as": "th",
+                "children": "PERCENTAGE %",
+              },
+              "ref": null,
+              "rendered": "PERCENTAGE %",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "as": "tbody",
+          "children": Array [
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableCell
+                as="td"
+              >
+                2018Q1
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                25471
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                204124
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                2013
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                1204
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                984
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                64.67%
+              </TableCell>
+            </TableRow>,
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableCell
+                as="td"
+              >
+                2017Q4
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                25472
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                204155
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                2010
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                1203
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                983
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                63.39%
+              </TableCell>
+            </TableRow>,
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableCell
+                as="td"
+              >
+                2017Q3
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                25473
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                204122
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                2011
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                1202
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                982
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                62.29%
+              </TableCell>
+            </TableRow>,
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableCell
+                as="td"
+              >
+                2017Q2
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                25525
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                204121
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                2012
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                1201
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                999
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                61.71%
+              </TableCell>
+            </TableRow>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "tr",
+              "cellAs": "td",
+              "children": Array [
+                <TableCell
+                  as="td"
+                >
+                  2018Q1
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  25471
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  204124
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  2013
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  1204
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  984
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  64.67%
+                </TableCell>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "2018Q1",
+                },
+                "ref": null,
+                "rendered": "2018Q1",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "25471",
+                },
+                "ref": null,
+                "rendered": "25471",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "204124",
+                },
+                "ref": null,
+                "rendered": "204124",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "2013",
+                },
+                "ref": null,
+                "rendered": "2013",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "1204",
+                },
+                "ref": null,
+                "rendered": "1204",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "984",
+                },
+                "ref": null,
+                "rendered": "984",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "64.67%",
+                },
+                "ref": null,
+                "rendered": "64.67%",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "tr",
+              "cellAs": "td",
+              "children": Array [
+                <TableCell
+                  as="td"
+                >
+                  2017Q4
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  25472
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  204155
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  2010
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  1203
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  983
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  63.39%
+                </TableCell>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "2017Q4",
+                },
+                "ref": null,
+                "rendered": "2017Q4",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "25472",
+                },
+                "ref": null,
+                "rendered": "25472",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "204155",
+                },
+                "ref": null,
+                "rendered": "204155",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "2010",
+                },
+                "ref": null,
+                "rendered": "2010",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "1203",
+                },
+                "ref": null,
+                "rendered": "1203",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "983",
+                },
+                "ref": null,
+                "rendered": "983",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "63.39%",
+                },
+                "ref": null,
+                "rendered": "63.39%",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "tr",
+              "cellAs": "td",
+              "children": Array [
+                <TableCell
+                  as="td"
+                >
+                  2017Q3
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  25473
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  204122
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  2011
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  1202
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  982
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  62.29%
+                </TableCell>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "2017Q3",
+                },
+                "ref": null,
+                "rendered": "2017Q3",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "25473",
+                },
+                "ref": null,
+                "rendered": "25473",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "204122",
+                },
+                "ref": null,
+                "rendered": "204122",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "2011",
+                },
+                "ref": null,
+                "rendered": "2011",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "1202",
+                },
+                "ref": null,
+                "rendered": "1202",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "982",
+                },
+                "ref": null,
+                "rendered": "982",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "62.29%",
+                },
+                "ref": null,
+                "rendered": "62.29%",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "tr",
+              "cellAs": "td",
+              "children": Array [
+                <TableCell
+                  as="td"
+                >
+                  2017Q2
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  25525
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  204121
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  2012
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  1201
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  999
+                </TableCell>,
+                <TableCell
+                  as="td"
+                >
+                  61.71%
+                </TableCell>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "2017Q2",
+                },
+                "ref": null,
+                "rendered": "2017Q2",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "25525",
+                },
+                "ref": null,
+                "rendered": "25525",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "204121",
+                },
+                "ref": null,
+                "rendered": "204121",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "2012",
+                },
+                "ref": null,
+                "rendered": "2012",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "1201",
+                },
+                "ref": null,
+                "rendered": "1201",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "999",
+                },
+                "ref": null,
+                "rendered": "999",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "as": "td",
+                  "children": "61.71%",
+                },
+                "ref": null,
+                "rendered": "61.71%",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "as": "table",
+        "celled": true,
+        "children": Array [
+          <TableHeader
+            as="thead"
+          >
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableHeaderCell
+                as="th"
+              >
+                QUARTER
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                ALL
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                MET(+)
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                NON MET(-)
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                DEN EXCL
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                NUM EXCL
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                PERCENTAGE %
+              </TableHeaderCell>
+            </TableRow>
+          </TableHeader>,
+          <TableBody
+            as="tbody"
+          >
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableCell
+                as="td"
+              >
+                2018Q1
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                25471
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                204124
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                2013
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                1204
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                984
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                64.67%
+              </TableCell>
+            </TableRow>
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableCell
+                as="td"
+              >
+                2017Q4
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                25472
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                204155
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                2010
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                1203
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                983
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                63.39%
+              </TableCell>
+            </TableRow>
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableCell
+                as="td"
+              >
+                2017Q3
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                25473
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                204122
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                2011
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                1202
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                982
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                62.29%
+              </TableCell>
+            </TableRow>
+            <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableCell
+                as="td"
+              >
+                2017Q2
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                25525
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                204121
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                2012
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                1201
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                999
+              </TableCell>
+              <TableCell
+                as="td"
+              >
+                61.71%
+              </TableCell>
+            </TableRow>
+          </TableBody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "as": "thead",
+            "children": <TableRow
+              as="tr"
+              cellAs="td"
+            >
+              <TableHeaderCell
+                as="th"
+              >
+                QUARTER
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                ALL
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                MET(+)
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                NON MET(-)
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                DEN EXCL
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                NUM EXCL
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+              >
+                PERCENTAGE %
+              </TableHeaderCell>
+            </TableRow>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "tr",
+              "cellAs": "td",
+              "children": Array [
+                <TableHeaderCell
+                  as="th"
+                >
+                  QUARTER
+                </TableHeaderCell>,
+                <TableHeaderCell
+                  as="th"
+                >
+                  ALL
+                </TableHeaderCell>,
+                <TableHeaderCell
+                  as="th"
+                >
+                  MET(+)
+                </TableHeaderCell>,
+                <TableHeaderCell
+                  as="th"
+                >
+                  NON MET(-)
+                </TableHeaderCell>,
+                <TableHeaderCell
+                  as="th"
+                >
+                  DEN EXCL
+                </TableHeaderCell>,
+                <TableHeaderCell
+                  as="th"
+                >
+                  NUM EXCL
+                </TableHeaderCell>,
+                <TableHeaderCell
+                  as="th"
+                >
+                  PERCENTAGE %
+                </TableHeaderCell>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "_QUARTER",
+                "nodeType": "function",
+                "props": Object {
+                  "as": "th",
+                  "children": "QUARTER",
+                },
+                "ref": null,
+                "rendered": "QUARTER",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "_ALL",
+                "nodeType": "function",
+                "props": Object {
+                  "as": "th",
+                  "children": "ALL",
+                },
+                "ref": null,
+                "rendered": "ALL",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "_MET(+)",
+                "nodeType": "function",
+                "props": Object {
+                  "as": "th",
+                  "children": "MET(+)",
+                },
+                "ref": null,
+                "rendered": "MET(+)",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "_NON MET(-)",
+                "nodeType": "function",
+                "props": Object {
+                  "as": "th",
+                  "children": "NON MET(-)",
+                },
+                "ref": null,
+                "rendered": "NON MET(-)",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "_DEN EXCL",
+                "nodeType": "function",
+                "props": Object {
+                  "as": "th",
+                  "children": "DEN EXCL",
+                },
+                "ref": null,
+                "rendered": "DEN EXCL",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "_NUM EXCL",
+                "nodeType": "function",
+                "props": Object {
+                  "as": "th",
+                  "children": "NUM EXCL",
+                },
+                "ref": null,
+                "rendered": "NUM EXCL",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "_PERCENTAGE %",
+                "nodeType": "function",
+                "props": Object {
+                  "as": "th",
+                  "children": "PERCENTAGE %",
+                },
+                "ref": null,
+                "rendered": "PERCENTAGE %",
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "as": "tbody",
+            "children": Array [
+              <TableRow
+                as="tr"
+                cellAs="td"
+              >
+                <TableCell
+                  as="td"
+                >
+                  2018Q1
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  25471
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  204124
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  2013
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  1204
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  984
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  64.67%
+                </TableCell>
+              </TableRow>,
+              <TableRow
+                as="tr"
+                cellAs="td"
+              >
+                <TableCell
+                  as="td"
+                >
+                  2017Q4
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  25472
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  204155
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  2010
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  1203
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  983
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  63.39%
+                </TableCell>
+              </TableRow>,
+              <TableRow
+                as="tr"
+                cellAs="td"
+              >
+                <TableCell
+                  as="td"
+                >
+                  2017Q3
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  25473
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  204122
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  2011
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  1202
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  982
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  62.29%
+                </TableCell>
+              </TableRow>,
+              <TableRow
+                as="tr"
+                cellAs="td"
+              >
+                <TableCell
+                  as="td"
+                >
+                  2017Q2
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  25525
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  204121
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  2012
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  1201
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  999
+                </TableCell>
+                <TableCell
+                  as="td"
+                >
+                  61.71%
+                </TableCell>
+              </TableRow>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "tr",
+                "cellAs": "td",
+                "children": Array [
+                  <TableCell
+                    as="td"
+                  >
+                    2018Q1
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    25471
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    204124
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    2013
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    1204
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    984
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    64.67%
+                  </TableCell>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "2018Q1",
+                  },
+                  "ref": null,
+                  "rendered": "2018Q1",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "25471",
+                  },
+                  "ref": null,
+                  "rendered": "25471",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "204124",
+                  },
+                  "ref": null,
+                  "rendered": "204124",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "2013",
+                  },
+                  "ref": null,
+                  "rendered": "2013",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "1204",
+                  },
+                  "ref": null,
+                  "rendered": "1204",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "984",
+                  },
+                  "ref": null,
+                  "rendered": "984",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "64.67%",
+                  },
+                  "ref": null,
+                  "rendered": "64.67%",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "tr",
+                "cellAs": "td",
+                "children": Array [
+                  <TableCell
+                    as="td"
+                  >
+                    2017Q4
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    25472
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    204155
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    2010
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    1203
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    983
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    63.39%
+                  </TableCell>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "2017Q4",
+                  },
+                  "ref": null,
+                  "rendered": "2017Q4",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "25472",
+                  },
+                  "ref": null,
+                  "rendered": "25472",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "204155",
+                  },
+                  "ref": null,
+                  "rendered": "204155",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "2010",
+                  },
+                  "ref": null,
+                  "rendered": "2010",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "1203",
+                  },
+                  "ref": null,
+                  "rendered": "1203",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "983",
+                  },
+                  "ref": null,
+                  "rendered": "983",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "63.39%",
+                  },
+                  "ref": null,
+                  "rendered": "63.39%",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "tr",
+                "cellAs": "td",
+                "children": Array [
+                  <TableCell
+                    as="td"
+                  >
+                    2017Q3
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    25473
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    204122
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    2011
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    1202
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    982
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    62.29%
+                  </TableCell>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "2017Q3",
+                  },
+                  "ref": null,
+                  "rendered": "2017Q3",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "25473",
+                  },
+                  "ref": null,
+                  "rendered": "25473",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "204122",
+                  },
+                  "ref": null,
+                  "rendered": "204122",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "2011",
+                  },
+                  "ref": null,
+                  "rendered": "2011",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "1202",
+                  },
+                  "ref": null,
+                  "rendered": "1202",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "982",
+                  },
+                  "ref": null,
+                  "rendered": "982",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "62.29%",
+                  },
+                  "ref": null,
+                  "rendered": "62.29%",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "tr",
+                "cellAs": "td",
+                "children": Array [
+                  <TableCell
+                    as="td"
+                  >
+                    2017Q2
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    25525
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    204121
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    2012
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    1201
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    999
+                  </TableCell>,
+                  <TableCell
+                    as="td"
+                  >
+                    61.71%
+                  </TableCell>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "2017Q2",
+                  },
+                  "ref": null,
+                  "rendered": "2017Q2",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "25525",
+                  },
+                  "ref": null,
+                  "rendered": "25525",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "204121",
+                  },
+                  "ref": null,
+                  "rendered": "204121",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "2012",
+                  },
+                  "ref": null,
+                  "rendered": "2012",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "1201",
+                  },
+                  "ref": null,
+                  "rendered": "1201",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "999",
+                  },
+                  "ref": null,
+                  "rendered": "999",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": "td",
+                    "children": "61.71%",
+                  },
+                  "ref": null,
+                  "rendered": "61.71%",
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

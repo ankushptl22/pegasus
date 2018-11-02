@@ -1,0 +1,166 @@
+.grid__Sidenavbar--navigation {
+  width: 120px !important;
+  /* margin-left: 20px; */
+  text-align: center !important;
+  position: relative !important;
+  z-index: 30;
+  backface-visibility: hidden !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.24) !important;
+  height: 200px !important;
+  background: #fff !important;
+  float: left !important;
+  margin-top: 63px !important;
+  left: 0;
+  height: 100% !important;
+  position: fixed !important;
+  padding: 0 !important;
+}
+.grid__Sidenavbar--navigation > ul {
+  padding: 0;
+  margin: 0;
+}
+.grid__Sidenavbar--navigation ul li {
+  text-align: center;
+  display: block;
+  height: auto;
+  width: 30px;
+  margin: 0 auto;
+}
+.grid__Sidenavbar--navigation ul li > img {
+  text-align: center;
+  display: block;
+  height: auto;
+  width: 30px;
+  margin: 0 auto;
+}
+.grid__Sidenavbar--navigation ul a {
+  display: block;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.grid__Sidenavbar--navigation ul a:hover {
+  background-color: #eaedf2;
+  cursor: pointer;
+}
+.grid__landing--page .grid__item {
+  padding-bottom: 9px;
+  margin: 0;
+  backface-visibility: hidden;
+  z-index: 101;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  background-color: #fff;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.12), 0 2px 16px rgba(0, 0, 0, 0.24);
+}
+.grid__Sidenavbar {
+  background-color: #fff;
+  height: 100%;
+}
+.grid__Sidenavbar ul {
+  padding: 30px 0 40px 0;
+  height: 100%;
+  list-style: none;
+}
+.page__header--content {
+  padding: 28px 13px 20px 40px !important;
+}
+.grid__landing--page .logout__btn {
+  float: right;
+}
+.grid__navigation--content {
+  margin-top: 0px;
+  position: fixed;
+  left: 127px;
+  top: 150px;
+}
+.page_container--sidebar {
+  padding-right: 15px;
+}
+.brand__logo-wrapper img {
+  width: 120px;
+}
+.grid__Sidenavbar--navigation {
+  width: 120px !important;
+  /* margin-left: 20px; */
+  text-align: center !important;
+  position: relative !important;
+  z-index: 30;
+  backface-visibility: hidden !important;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.24) !important;
+  height: 200px !important;
+  background: #fff !important;
+  float: left !important;
+  margin-top: 63px !important;
+  left: 0;
+  height: 100% !important;
+  position: fixed !important;
+  padding: 0 !important;
+}
+.grid__Sidenavbar--navigation > ul {
+  padding: 0;
+  margin: 0;
+}
+.grid__Sidenavbar--navigation ul li {
+  text-align: center;
+  display: block;
+  height: auto;
+  width: 30px;
+  margin: 0 auto;
+}
+.grid__Sidenavbar--navigation ul li > img {
+  text-align: center;
+  display: block;
+  height: auto;
+  width: 30px;
+  margin: 0 auto;
+}
+.grid__Sidenavbar--navigation ul a {
+  display: block;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.grid__Sidenavbar--navigation ul a:hover {
+  background-color: #eaedf2;
+  cursor: pointer;
+}
+.grid__landing--page .grid__item {
+  backface-visibility: hidden;
+  z-index: 101;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 103px;
+  background-color: #fff;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.12), 0 2px 16px rgba(0, 0, 0, 0.24);
+}
+.grid__Sidenavbar {
+  background-color: #fff;
+  height: 100%;
+}
+.grid__Sidenavbar ul {
+  padding: 30px 0 40px 0;
+  height: 100%;
+  list-style: none;
+}
+.page__header--content {
+  padding: 28px 13px 20px 40px !important;
+}
+.grid__landing--page .logout__btn {
+  float: right;
+}
+.grid__navigation--content {
+  margin-top: 0px;
+  position: fixed;
+  left: 127px;
+  top: 150px;
+}
+.page_container--sidebar {
+  padding-right: 15px;
+}
+.brand__logo-wrapper img {
+  width: 120px;
+}

@@ -1,0 +1,87 @@
+// main: ../../main.less
+
+
+.page-header {
+  background-color: @accent-white;
+}
+
+@media (min-width: 1025px) {
+  .brand {
+    height: 90px;
+    width: 180px;
+    @media (min-width: 1025px){
+      .brand__logo img {
+        max-width: 120px;
+      }
+    }
+  }
+}
+
+
+
+
+//== Desktop Mode
+@media (min-width: 1025px) {
+	.fi-header {
+
+		// fixed header mode
+		.fi-header--fixed {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
+
+		// static header mode
+		.fi-header-head {
+			.fi-header--static.fi-aside-left--fixed.fi-aside-left--minimize & {
+
+			}
+		}
+
+
+
+	}
+}
+
+//== Mobile Mode
+@media (min-width: 769px) and (max-width: 1024px){
+	.fi-header {
+
+
+		// header nav
+		.fi-header__nav {
+			top: -100%;
+			position: relative;
+		}
+
+		> .fi-container > .fi-grid {
+
+			> .fi-grid__col {
+
+			}
+		}
+
+		.fi-header--fixed-mobile & {
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+		}
+
+		// fixed header hidable mode
+		.fi-header--fixed-mobile.fi-header--hide & {
+
+		}
+
+		.fi-header--fixed-mobile.fi-header--show & {
+
+
+		}
+
+		//== Title
+		.fi-header-head {
+
+		}
+	}
+}

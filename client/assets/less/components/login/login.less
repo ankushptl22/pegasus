@@ -1,0 +1,395 @@
+// main: ../../main.less
+
+
+
+.login--page {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 0px;
+  background: @accent-white;
+  overflow: hidden;
+  background-image: url("/assets/media/img/login-bg.jpg");
+  .ui.animated.button {
+    &:hover, &:focus {
+      .hidden{
+        display: block;
+      }
+    }
+  }
+  .login--signin__row {
+    height: 90%;
+    height: ~'calc(100% - 52px)';
+  }
+  .login__wrapper-1 {
+    .login__contanier {
+      margin: 0 auto;
+      text-align: left;
+      max-width: 420px;
+      padding: 1rem 1rem 13%;
+      .login__logo {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      .login__title {
+        padding-top: 1rem;
+        font-weight: 100;
+        font-size: 2.3rem;
+        font-family: @secondary-font;
+        color: @gray-light-text ;
+        text-transform: uppercase;
+      }
+      h4.login--title__h4 {
+        margin: 0 0 10px;
+        padding-top: 0.2rem;
+        font-weight: 100;
+        font-size: 1.2rem;
+        font-family: @secondary-font;
+        color: @gray-light-text ;
+      }
+      h5.login--title__h5 {
+        margin: 0;
+        padding-top: 0.2rem;
+        font-weight: 100;
+        font-size: 1.2rem;
+        font-family: @secondary-font;
+        color: @gray;
+        a {
+          font-family: @secondary-font;
+          color: @gray-light-text ;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  .login__Register-action {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 15px;
+    z-index: 2;
+    .Register__title {
+      font-weight: 400;
+      font-size: 1rem;
+      margin: 0 0 5px;
+    }
+  }
+  .login__wrapper-2 {
+    .login__contanier {
+      max-width: 430px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+      .login__logo {
+        text-align: center;
+        margin: 0 auto;
+      }
+      .login__head {
+        margin-top: 1rem;
+        .login__title {
+          text-align: center;
+          font-size: 1.5rem;
+          font-weight: 400;
+        }
+        .login__desc {
+          margin-top: 1.5rem;
+          text-align: center;
+          font-size: font-get-size(regular);
+        }
+      }
+      .login__form {
+        margin-top: 4rem;
+        .field {
+          margin: 0;
+          padding: 0;
+          position: relative;
+          .login-input {
+          //  input[type="text"], input[type="password"] {
+              -webkit-border-radius: 0;
+              -moz-border-radius: 0;
+              -ms-border-radius: 0;
+              -o-border-radius: 0;
+              border-radius: 0;
+              border: 0;
+              border-bottom: 1px solid #ebedf2;
+              padding: 1.5rem 0;
+              margin-top: 0.1rem;
+              &::-moz-placeholder {
+                color: #9496a0;
+                opacity: 1;
+              }
+              &:-ms-input-placeholder, &::-webkit-input-placeholder {
+                color: #9496a0;
+              }
+              &:focus{
+                &::-moz-placeholder {
+                color:@brand-primary;
+                opacity: 1;
+                }
+                &:-ms-input-placeholder, &::-webkit-input-placeholder {
+                  color: @brand-primary;
+                }
+              }
+
+          }
+          &.has-danger .form-control-feedback {
+            font-weight: 400;
+            font-size: 0.85rem;
+          }
+        }
+        .login__form-sub {
+          margin-top: 2rem;
+          .checkbox, .link {
+            font-size: 1rem;
+          }
+        }
+      }
+      .login__form-action {
+        margin: 3rem 0 3rem 0;
+        text-align: center;
+        .ui.button {
+          display: inline-block;
+          text-align: center;
+          padding: 1.2rem 3rem;
+          margin-right: 2rem;
+          background-color: @brand-primary;
+          .border-radius (@radius: 60px);
+          .box-shadow (0 5px 10px 2px rgba(4,148,250,.19));
+          &:last-child {
+            margin-right: 0;
+          }
+          &:hover {
+            background-color: darken(@brand-primary,10%);
+            .box-shadow (0 5px 10px 2px fade(darken(@brand-primary,10%), 50%));
+          }
+        }
+      }
+      .login__account {
+        text-align: center;
+        .login__account-msg, .login__account-link {
+          font-size: 1.1rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+.login--page {
+    padding: 2rem 1rem;
+    .login__wrapper-1 {
+      .login__contanier {
+        .login__content {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .login__wrapper-2 {
+    .login__contanier {
+      width: 100%;
+      .login__signup {
+        .login__form{
+          .login__form-action {
+            .ui.button {
+              padding: 1.2rem 3rem;
+              margin-right: 2rem;
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+      .login__forget-password {
+        .login__form{
+          .login__form-action{
+            .ui.button {
+              text-align: center;
+              padding: 1.2rem 3rem;
+              margin-right: 2rem;
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .login--page {
+    .login__wrapper-1 {
+      .login__contanier {
+        .login__title{
+          font-size: 2rem;
+        }
+        .login__content {
+          width: 100%;
+          padding: 2rem 3rem;
+        }
+      }
+    }
+    .login__wrapper-2 {
+      .login__contanier {
+        width: 100%;
+        padding: 0 3rem;
+        .login__forget-password {
+          .login__form {
+            .login__form-action {
+              .ui.button {
+                text-align: center;
+                padding: 1.2rem 2.4rem;
+                margin-right: 2rem;
+                &:last-child {
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .login--page {
+    .login__wrapper-1 {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      .login__contanier {
+        display: block;
+        width: 100%;
+        .login__title {
+          font-size: 1.8rem;
+        }
+      }
+    }
+    .login__wrapper-2 {
+      width: 100%;
+      display: block;
+      .login__contanier {
+        width: 100%;
+        margin: 0 auto;
+        .login__forget-password {
+          .login__form {
+            .login__form-action {
+              .ui.button {
+                text-align: center;
+                padding: 1rem 2rem;
+                margin-right: 0.5rem;
+                &:last-child {
+                  margin-right: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  * {
+    outline: none;
+  }
+}
+.ui.form {
+  input:not([type]),
+  input[type=date],
+  input[type=datetime-local],
+  input[type=email],
+  input[type=file],
+  input[type=number],
+  input[type=password],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  input[type=time],
+  input[type=url] {
+    font-family:@main-font;
+  }
+
+
+&.login__form {
+  .field {
+    position: relative;
+    width: 100%;
+
+    &:not(.checkbox) {
+      margin-top: 1rem;
+      margin-bottom: 1.7rem;
+    }
+
+    // Now to position our `label` and style it more as the
+    // native `placeholder`
+    label {
+      color: @gray-light;
+      position: absolute;
+      left:0rem;
+      top: 1.52rem;
+      transition: .2s ease-in;
+      font-weight:400;
+      font-size:1rem;
+      font-family:@main-font;
+    }
+
+    // Next, `input`, so it's barely visible on any background
+    // excluding checkbox and we'll add textarea
+    input:not([type=checkbox]),
+    //input:placeholder-shown,
+    //input:not(:placeholder-shown),
+    textarea {
+      border: none;
+      transition: .2s ease-in;
+      &:focus ~ label, &:valid ~ label
+      {
+        color: grey;
+        font-size: 80%;
+        top: -1rem;
+        left: 0;
+      }
+
+      &:focus {
+        border-bottom: 1px solid dodgerblue;
+        outline: none;
+      }
+    }
+  }
+  &.login--register__form{
+    .field {
+      input:placeholder-shown {
+         &:valid ~ label
+        {
+
+          font-size: 100%;
+          top: 1.52rem;
+          left: 0;
+        }
+      }
+      input:not(:placeholder-shown) {
+        &:focus ~ label, ~ label
+        {
+          font-size: 80%;
+          top: -1rem;top: -1rem;
+        }
+      }
+    }
+  }
+}
+
+}

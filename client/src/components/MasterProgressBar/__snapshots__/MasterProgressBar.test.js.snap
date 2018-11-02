@@ -1,0 +1,750 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MasterProgressBar /> renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MasterProgressBar
+    progressData={
+      Object {
+        "cmsBenchMark": 50,
+        "difference": 5,
+        "isCmsBenchMark": false,
+        "isRegistryAverage": true,
+        "mean": 5,
+        "percentPerformance": 0,
+        "percentPerformanceText": "Achieved Performance",
+        "registryAverage": 50,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Segment
+          basic={true}
+          className="no-box-shadow no-border no-margin width-90 "
+          textAlign="center"
+        >
+          <SegmentGroup
+            className="mark-parent"
+            style={
+              Object {
+                "left": "50%",
+              }
+            }
+          >
+            <Segment
+              className="mark-child"
+              textAlign="center"
+            >
+               
+              50
+               % 
+            </Segment>
+            <Segment
+              className="mark-child"
+              textAlign="center"
+            >
+              <Icon
+                as="i"
+                className="master-icon"
+                fitted={true}
+                name="sort down"
+                size="big"
+              />
+            </Segment>
+          </SegmentGroup>
+          <Segment
+            basic={true}
+            className="progress-segment"
+            textAlign="left"
+          >
+            <Segment
+              basic={true}
+              className="measure-performance-bar"
+              style={
+                Object {
+                  "left": "0%",
+                }
+              }
+            >
+              I
+            </Segment>
+            <Progress
+              className="progressbar progress-bar-success"
+              color="black"
+              fitted={true}
+              percent={0}
+              size="tiny"
+            />
+          </Segment>
+        </Segment>,
+        <Segment
+          basic={true}
+          className="no-box-shadow no-margin font-size-20 width-10 vertical-align-middle"
+          textAlign="left"
+        >
+          <label
+            className="progressbar progress-bar-success"
+          >
+            0
+             %
+          </label>
+            
+        </Segment>,
+      ],
+      "className": "no-box-shadow no-padding no-margin",
+      "horizontal": true,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "basic": true,
+          "children": Array [
+            <SegmentGroup
+              className="mark-parent"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              <Segment
+                className="mark-child"
+                textAlign="center"
+              >
+                 
+                50
+                 % 
+              </Segment>
+              <Segment
+                className="mark-child"
+                textAlign="center"
+              >
+                <Icon
+                  as="i"
+                  className="master-icon"
+                  fitted={true}
+                  name="sort down"
+                  size="big"
+                />
+              </Segment>
+            </SegmentGroup>,
+            <Segment
+              basic={true}
+              className="progress-segment"
+              textAlign="left"
+            >
+              <Segment
+                basic={true}
+                className="measure-performance-bar"
+                style={
+                  Object {
+                    "left": "0%",
+                  }
+                }
+              >
+                I
+              </Segment>
+              <Progress
+                className="progressbar progress-bar-success"
+                color="black"
+                fitted={true}
+                percent={0}
+                size="tiny"
+              />
+            </Segment>,
+            null,
+          ],
+          "className": "no-box-shadow no-border no-margin width-90 ",
+          "textAlign": "center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <Segment
+                  className="mark-child"
+                  textAlign="center"
+                >
+                   
+                  50
+                   % 
+                </Segment>,
+                <Segment
+                  className="mark-child"
+                  textAlign="center"
+                >
+                  <Icon
+                    as="i"
+                    className="master-icon"
+                    fitted={true}
+                    name="sort down"
+                    size="big"
+                  />
+                </Segment>,
+              ],
+              "className": "mark-parent",
+              "style": Object {
+                "left": "50%",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": Array [
+                    " ",
+                    50,
+                    " % ",
+                  ],
+                  "className": "mark-child",
+                  "textAlign": "center",
+                },
+                "ref": null,
+                "rendered": Array [
+                  " ",
+                  50,
+                  " % ",
+                ],
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <Icon
+                    as="i"
+                    className="master-icon"
+                    fitted={true}
+                    name="sort down"
+                    size="big"
+                  />,
+                  "className": "mark-child",
+                  "textAlign": "center",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "as": "i",
+                    "className": "master-icon",
+                    "fitted": true,
+                    "name": "sort down",
+                    "size": "big",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "basic": true,
+              "children": Array [
+                <Segment
+                  basic={true}
+                  className="measure-performance-bar"
+                  style={
+                    Object {
+                      "left": "0%",
+                    }
+                  }
+                >
+                  I
+                </Segment>,
+                <Progress
+                  className="progressbar progress-bar-success"
+                  color="black"
+                  fitted={true}
+                  percent={0}
+                  size="tiny"
+                />,
+              ],
+              "className": "progress-segment",
+              "textAlign": "left",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "basic": true,
+                  "children": "I",
+                  "className": "measure-performance-bar",
+                  "style": Object {
+                    "left": "0%",
+                  },
+                },
+                "ref": null,
+                "rendered": "I",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "progressbar progress-bar-success",
+                  "color": "black",
+                  "fitted": true,
+                  "percent": 0,
+                  "size": "tiny",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          null,
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "basic": true,
+          "children": Array [
+            <label
+              className="progressbar progress-bar-success"
+            >
+              0
+               %
+            </label>,
+            "  ",
+          ],
+          "className": "no-box-shadow no-margin font-size-20 width-10 vertical-align-middle",
+          "textAlign": "left",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                0,
+                " %",
+              ],
+              "className": "progressbar progress-bar-success",
+            },
+            "ref": null,
+            "rendered": Array [
+              0,
+              " %",
+            ],
+            "type": "label",
+          },
+          "  ",
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Segment
+            basic={true}
+            className="no-box-shadow no-border no-margin width-90 "
+            textAlign="center"
+          >
+            <SegmentGroup
+              className="mark-parent"
+              style={
+                Object {
+                  "left": "50%",
+                }
+              }
+            >
+              <Segment
+                className="mark-child"
+                textAlign="center"
+              >
+                 
+                50
+                 % 
+              </Segment>
+              <Segment
+                className="mark-child"
+                textAlign="center"
+              >
+                <Icon
+                  as="i"
+                  className="master-icon"
+                  fitted={true}
+                  name="sort down"
+                  size="big"
+                />
+              </Segment>
+            </SegmentGroup>
+            <Segment
+              basic={true}
+              className="progress-segment"
+              textAlign="left"
+            >
+              <Segment
+                basic={true}
+                className="measure-performance-bar"
+                style={
+                  Object {
+                    "left": "0%",
+                  }
+                }
+              >
+                I
+              </Segment>
+              <Progress
+                className="progressbar progress-bar-success"
+                color="black"
+                fitted={true}
+                percent={0}
+                size="tiny"
+              />
+            </Segment>
+          </Segment>,
+          <Segment
+            basic={true}
+            className="no-box-shadow no-margin font-size-20 width-10 vertical-align-middle"
+            textAlign="left"
+          >
+            <label
+              className="progressbar progress-bar-success"
+            >
+              0
+               %
+            </label>
+              
+          </Segment>,
+        ],
+        "className": "no-box-shadow no-padding no-margin",
+        "horizontal": true,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "basic": true,
+            "children": Array [
+              <SegmentGroup
+                className="mark-parent"
+                style={
+                  Object {
+                    "left": "50%",
+                  }
+                }
+              >
+                <Segment
+                  className="mark-child"
+                  textAlign="center"
+                >
+                   
+                  50
+                   % 
+                </Segment>
+                <Segment
+                  className="mark-child"
+                  textAlign="center"
+                >
+                  <Icon
+                    as="i"
+                    className="master-icon"
+                    fitted={true}
+                    name="sort down"
+                    size="big"
+                  />
+                </Segment>
+              </SegmentGroup>,
+              <Segment
+                basic={true}
+                className="progress-segment"
+                textAlign="left"
+              >
+                <Segment
+                  basic={true}
+                  className="measure-performance-bar"
+                  style={
+                    Object {
+                      "left": "0%",
+                    }
+                  }
+                >
+                  I
+                </Segment>
+                <Progress
+                  className="progressbar progress-bar-success"
+                  color="black"
+                  fitted={true}
+                  percent={0}
+                  size="tiny"
+                />
+              </Segment>,
+              null,
+            ],
+            "className": "no-box-shadow no-border no-margin width-90 ",
+            "textAlign": "center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": Array [
+                  <Segment
+                    className="mark-child"
+                    textAlign="center"
+                  >
+                     
+                    50
+                     % 
+                  </Segment>,
+                  <Segment
+                    className="mark-child"
+                    textAlign="center"
+                  >
+                    <Icon
+                      as="i"
+                      className="master-icon"
+                      fitted={true}
+                      name="sort down"
+                      size="big"
+                    />
+                  </Segment>,
+                ],
+                "className": "mark-parent",
+                "style": Object {
+                  "left": "50%",
+                },
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      50,
+                      " % ",
+                    ],
+                    "className": "mark-child",
+                    "textAlign": "center",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    50,
+                    " % ",
+                  ],
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <Icon
+                      as="i"
+                      className="master-icon"
+                      fitted={true}
+                      name="sort down"
+                      size="big"
+                    />,
+                    "className": "mark-child",
+                    "textAlign": "center",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "as": "i",
+                      "className": "master-icon",
+                      "fitted": true,
+                      "name": "sort down",
+                      "size": "big",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "basic": true,
+                "children": Array [
+                  <Segment
+                    basic={true}
+                    className="measure-performance-bar"
+                    style={
+                      Object {
+                        "left": "0%",
+                      }
+                    }
+                  >
+                    I
+                  </Segment>,
+                  <Progress
+                    className="progressbar progress-bar-success"
+                    color="black"
+                    fitted={true}
+                    percent={0}
+                    size="tiny"
+                  />,
+                ],
+                "className": "progress-segment",
+                "textAlign": "left",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "basic": true,
+                    "children": "I",
+                    "className": "measure-performance-bar",
+                    "style": Object {
+                      "left": "0%",
+                    },
+                  },
+                  "ref": null,
+                  "rendered": "I",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "progressbar progress-bar-success",
+                    "color": "black",
+                    "fitted": true,
+                    "percent": 0,
+                    "size": "tiny",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+            null,
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "basic": true,
+            "children": Array [
+              <label
+                className="progressbar progress-bar-success"
+              >
+                0
+                 %
+              </label>,
+              "  ",
+            ],
+            "className": "no-box-shadow no-margin font-size-20 width-10 vertical-align-middle",
+            "textAlign": "left",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  0,
+                  " %",
+                ],
+                "className": "progressbar progress-bar-success",
+              },
+              "ref": null,
+              "rendered": Array [
+                0,
+                " %",
+              ],
+              "type": "label",
+            },
+            "  ",
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

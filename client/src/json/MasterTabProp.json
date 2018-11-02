@@ -1,0 +1,44 @@
+{
+  "masterTabProp": [
+    {
+      "menuItem": "Practice Info",
+      "cssClass": "",
+      "activeIndex": 1,
+      "icon": "users",
+      "defaultActiveIndex": true,
+      "router": "PracticeListView"
+    },
+    {
+      "menuItem": "Clinicians",
+      "cssClass": "",
+      "activeIndex": 2,
+      "icon": "users",
+      "defaultActiveIndex": false,
+      "router": "MasterCardView"
+    },
+    {
+      "menuItem": "Locations",
+      "cssClass": "",
+      "activeIndex": 3,
+      "icon": "users",
+      "defaultActiveIndex": false,
+      "router": "PracticeListView"
+    },
+    {
+      "menuItem": "EHR Info",
+      "cssClass": "",
+      "activeIndex": 4,
+      "icon": "users",
+      "defaultActiveIndex": true,
+      "router": "MasterCardView"
+    },
+    {
+      "menuItem": "Custom Info",
+      "cssClass": "",
+      "activeIndex": 5,
+      "icon": "users",
+      "defaultActiveIndex": true,
+      "router": "PracticeClinicianGrid"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+    "data": [ 
+                { 
+                  "_QUARTER": "2018Q1", 
+                  "_ALL": "25471",
+                  "_MET(+)": "204124" ,
+                  "_NON MET(-)": "2013",
+                  "_DEN EXCL": "1204",
+                  "_NUM EXCL": "984" ,
+                  "_PERCENTAGE %": "64.67%"
+                },
+    
+                { 
+                  "_QUARTER": "2017Q4", 
+                  "_ALL": "25472",
+                  "_MET(+)": "204155" ,
+                  "_NON MET(-)": "2010",
+                  "_DEN EXCL": "1203",
+                  "_NUM EXCL": "983" ,
+                  "_PERCENTAGE %": "63.39%" 
+                },
+    
+                { 
+                  "_QUARTER": "2017Q3",
+                  "_ALL": "25473", 
+                  "_MET(+)": "204122" ,
+                  "_NON MET(-)": "2011",
+                  "_DEN EXCL": "1202",
+                  "_NUM EXCL": "982" ,
+                  "_PERCENTAGE %": "62.29%" 
+                },
+    
+                { 
+                  "_QUARTER": "2017Q2",
+                  "_ALL": "25525", 
+                  "_MET(+)": "204121" ,
+                  "_NON MET(-)": "2012", 
+                  "_DEN EXCL": "1201", 
+                  "_NUM EXCL": "999" ,
+                  "_PERCENTAGE %": "61.71%" 
+                }
+          ],
+    
+          "cols": [ 
+                { 
+                  "key": "_QUARTER", 
+                  "label": "QUARTER" 
+                },
+    
+                { 
+                  "key": "_ALL",
+                  "label": "ALL" 
+                }, 
+    
+                { 
+                  "key": "_MET(+)", 
+                  "label": "MET(+)" 
+                },
+    
+                { 
+                  "key": "_NON MET(-)",
+                  "label": "NON MET(-)" 
+                },
+    
+                { 
+                  "key": "_DEN EXCL", 
+                  "label": "DEN EXCL"
+                },
+    
+                { 
+                  "key": "_NUM EXCL",
+                  "label": "NUM EXCL"
+                },
+    
+                { 
+                  "key": "_PERCENTAGE %", 
+                  "label": "PERCENTAGE %" 
+                }
+                
+            ]
+
+}

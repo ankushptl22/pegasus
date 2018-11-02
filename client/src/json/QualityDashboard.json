@@ -1,0 +1,103 @@
+{
+    "durationProp": [
+        {
+            "key": "1",
+            "text": "2018Q4",
+            "value": "1"
+        },
+        {
+            "key": "2",
+            "text": "2018Q3",
+            "value": "2"
+        },
+        {
+            "key": "3",
+            "text": "2018Q2",
+            "value": "3"
+        },
+        {
+            "key": "4",
+            "text": "2018Q1",
+            "value": "4"
+        },
+        {
+            "key": "5",
+            "text": "Dec-2018",
+            "value": "5"
+        },
+        {
+            "key": "6",
+            "text": "Nov-2018",
+            "value": "6"
+        },
+        {
+            "key": "7",
+            "text": "Oct-2018",
+            "value": "7"
+        },
+        {
+            "key": "8",
+            "text": "Sep-2018",
+            "value": "8"
+        },
+        {
+            "key": "9",
+            "text": "Aug-2018",
+            "value": "9"
+        },
+        {
+            "key": "10",
+            "text": "Jul-2018",
+            "value": "10"
+        },
+        {
+            "key": "11",
+            "text": "Jun-2018",
+            "value": "11"
+        },
+        {
+            "key": "12",
+            "text": "May-2018",
+            "value": "12"
+        },
+        {
+            "key": "13",
+            "text": "Apr-2018",
+            "value": "13"
+        },
+        {
+            "key": "14",
+            "text": "Mar-2018",
+            "value": "14"
+        },
+        {
+            "key": "15",
+            "text": "Feb-2018",
+            "value": "15"
+        },
+        {
+            "key": "16",
+            "text": "Jan-2018",
+            "value": "16"
+        }
+    ],
+    "measureSetProp": [
+        {
+            "key": "1",
+            "text": "2018 MIPS Measure",
+            "value": "1"
+        },
+        {
+            "key": "2",
+            "text": "Registry Measure",
+            "value": "2"
+        }
+    ],
+   "practiceProp": [
+        {
+            "key": "2",
+            "text": "537908 - Web Demo Practice",
+            "value": "2"
+        }
+    ]
+}

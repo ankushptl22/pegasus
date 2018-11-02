@@ -1,0 +1,195 @@
+{
+    "tableSchema": [
+        {
+            "favourite": {
+                "header": "",
+                "component": {
+                    "name": "Icon",
+                    "props": [
+                        "name"
+                    ],
+                    "value": {
+                        "name": "heart outline",
+                        "favoruite": false
+                    }
+                },
+                "style": {
+                    "width": "10%",
+                    "position": "relative",
+                    "top": "50%"
+                },
+                "click": "addToFavouriteHandler"
+            }
+        },
+        {
+            "id": {
+                "header": "ID",
+                "style": {
+                    "width": "5%",
+                    "position": "relative",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "measure": {
+                "header": "MEASURE",
+                "style": {
+                    "width": "30%",
+                    "position": "relative",
+                    "top": "50%"
+                }
+            }
+        },
+        {
+            "performance": {
+                "header": "ACHIEVED PERFORMANCE",
+                "component": {
+                    "name": "MasterProgressBar",
+                    "props": [
+                        "progressData"
+                    ]
+                },
+                "style": {
+                    "width": "40%"
+                }
+            }
+        }
+
+    ],
+    "tableData": [
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "101",
+            "measure": "Melanoma: Overutilizzation of imaging",
+            "performance": {
+                "progressData": {
+                    "percentPerformanceText": "Achieved Performance",
+                    "percentPerformance": 66.05,
+                    "cmsBenchMark": 45,
+                    "isCmsBenchMark": true,
+                    "registryAverage": 82,
+                    "isRegistryAverage": true,
+                    "difference": 5,
+                    "mean": 5
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "102",
+            "measure": "Tuberculosis: (TB) Prevetion for patients ",
+            "performance": {
+                "progressData": {
+                    "percentPerformanceText": "Achieved Performance",
+                    "percentPerformance": 66.05,
+                    "cmsBenchMark": 45,
+                    "isCmsBenchMark": true,
+                    "registryAverage": 82,
+                    "isRegistryAverage": true,
+                    "difference": 5,
+                    "mean": 5
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "103",
+            "measure": "Melanoma: Overutilizzation of imaging",
+            "performance": {
+                "progressData": {
+                    "percentPerformanceText": "Achieved Performance",
+                    "percentPerformance": 66.05,
+                    "cmsBenchMark": 45,
+                    "isCmsBenchMark": true,
+                    "registryAverage": 82,
+                    "isRegistryAverage": true,
+                    "difference": 5,
+                    "mean": 5
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "104",
+            "measure": "Tuberculosis: (TB) Prevetion for patients ",
+            "performance": {
+                "progressData": {
+                    "percentPerformanceText": "Achieved Performance",
+                    "percentPerformance": 66.05,
+                    "cmsBenchMark": 45,
+                    "isCmsBenchMark": true,
+                    "registryAverage": 82,
+                    "isRegistryAverage": true,
+                    "difference": 5,
+                    "mean": 5
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "101",
+            "measure": "Melanoma: Overutilizzation of imaging",
+            "performance": {
+                "progressData": {
+                    "percentPerformanceText": "Achieved Performance",
+                    "percentPerformance": 66.05,
+                    "cmsBenchMark": 45,
+                    "isCmsBenchMark": true,
+                    "registryAverage": 82,
+                    "isRegistryAverage": true,
+                    "difference": 5,
+                    "mean": 5
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "102",
+            "measure": "Tuberculosis: (TB) Prevetion for patients ",
+            "performance": {
+                "progressData": {
+                    "percentPerformanceText": "Achieved Performance",
+                    "percentPerformance": 66.05,
+                    "cmsBenchMark": 45,
+                    "isCmsBenchMark": true,
+                    "registryAverage": 82,
+                    "isRegistryAverage": true,
+                    "difference": 5,
+                    "mean": 5
+                }
+            }
+        },
+        {
+            "favourite": {
+                "name": "heart outline"
+            },
+            "id": "103",
+            "measure": "Melanoma: Overutilizzation of imaging",
+            "performance": {
+                "progressData": {
+                    "percentPerformanceText": "Achieved Performance",
+                    "percentPerformance": 66.05,
+                    "cmsBenchMark": 45,
+                    "isCmsBenchMark": true,
+                    "registryAverage": 82,
+                    "isRegistryAverage": true,
+                    "difference": 5,
+                    "mean": 5
+                }
+            }
+        }
+    ]
+}

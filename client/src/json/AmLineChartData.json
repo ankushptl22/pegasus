@@ -1,0 +1,825 @@
+[
+    {
+        "Date": "2017-01-01 10:52",
+        "Active": 9,
+        "Inactive": 7,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-01 16:52",
+        "Active": 18,
+        "Inactive": 15,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 60,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-01 19:52",
+        "Active": 11,
+        "Inactive": 10,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 70,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-02 09:52",
+        "Active": 32,
+        "Inactive": 2,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 80,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-02 11:52",
+        "Active": 86,
+        "Inactive": 20,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 90,
+        "CMS Reporting": 100,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-02 14:52",
+        "Active": 22,
+        "Inactive": 9,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 100,
+        "CMS Reporting": 300,
+        "Production": 10
+    },
+    {
+        "Date": "2017-01-02 20:52",
+        "Active": 17,
+        "Inactive": 20,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 150,
+        "CMS Reporting": 50,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-03",
+        "Active": 10,
+        "Inactive": 1,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 520,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-04",
+        "Active": 51,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 650,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-05",
+        "Active": 23,
+        "Inactive": 2,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-06",
+        "Active": 10,
+        "Inactive": 3,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-09",
+        "Active": 50,
+        "Inactive": 8,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 350,
+        "CMS Reporting": 500,
+        "Production": 300
+    },
+    {
+        "Date": "2017-01-12",
+        "Active": 82,
+        "Inactive": 5,
+        "Active Leads": 20,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-13",
+        "Active": 10,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-17",
+        "Active": 81,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 20,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-18",
+        "Active": 20,
+        "Inactive": 2,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-19",
+        "Active": 2,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-23",
+        "Active": 2,
+        "Inactive": 10,
+        "Active Leads": 180,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 600,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-24",
+        "Active": 2,
+        "Inactive": 0,
+        "Active Leads": 80,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-25",
+        "Active": 1,
+        "Inactive": 1,
+        "Active Leads": 280,
+        "Registaration": 180,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-27",
+        "Active": 1,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 200,
+        "Data Extraction": 50,
+        "CMS Reporting": 300,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-30",
+        "Active": 1,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 10,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-01-31",
+        "Active": 1,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 100,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-02-01",
+        "Active": 3,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 130,
+        "Data Extraction": 50,
+        "CMS Reporting": 50,
+        "Production": 100
+    },
+    {
+        "Date": "2017-02-02",
+        "Active": 0,
+        "Inactive": 1,
+        "Active Leads": 280,
+        "Registaration": 10,
+        "Data Extraction": 50,
+        "CMS Reporting": 500,
+        "Production": 100
+    },
+    {
+        "Date": "2017-02-03",
+        "Active": 1,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 400,
+        "Data Extraction": 50,
+        "Production": 100
+    },
+    {
+        "Date": "2017-02-06",
+        "Active": 1,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Registaration": 70,
+        "Data Extraction": 50,
+        "Production": 100
+    },
+    {
+        "Date": "2017-02-07",
+        "Active": 0,
+        "Inactive": 8,
+        "Active Leads": 280,
+        "Data Extraction": 50,
+        "Production": 100
+    },
+    {
+        "Date": "2017-02-08",
+        "Active": 3,
+        "Inactive": 16,
+        "Active Leads": 280,
+        "Data Extraction": 50,
+        "Production": 100
+    },
+    {
+        "Date": "2017-02-09",
+        "Active": 0,
+        "Inactive": 15,
+        "Active Leads": 280,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-10",
+        "Active": 0,
+        "Inactive": 2,
+        "Active Leads": 280,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-13",
+        "Active": 2,
+        "Inactive": 1,
+        "Active Leads": 280,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-14",
+        "Active": 1,
+        "Inactive": 1,
+        "Active Leads": 280,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-15",
+        "Active": 1,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-17",
+        "Active": 7,
+        "Inactive": 0,
+        "Active Leads": 280,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-20",
+        "Active": 16,
+        "Inactive": 1,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-21",
+        "Active": 2,
+        "Inactive": 0,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-22",
+        "Active": 10,
+        "Inactive": 1,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-02-23",
+        "Active": 2,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-02-28",
+        "Active": 3,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-03-01",
+        "Active": 2,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-03-02",
+        "Active": 3,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-03-03",
+        "Active": 2,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-03-06",
+        "Active": 3,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-03-15",
+        "Active": 9,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-03-16",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-03-17",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-03-23",
+        "Active": 3,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-03-27",
+        "Active": 4,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-03-28",
+        "Active": 5,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-03-29",
+        "Active": 5,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-03-30",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-01",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-03",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-04",
+        "Active": 2,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-06",
+        "Active": 3,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-10",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-11",
+        "Active": 6,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-12",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-13",
+        "Active": 3,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-19",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-04-20",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-01",
+        "Active": 1,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-05-04",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-09",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-11",
+        "Active": 1,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-05-12",
+        "Active": 4,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-16",
+        "Active": 2,
+        "Inactive": 2
+    },
+    {
+        "Date": "2017-05-17",
+        "Active": 6,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-19",
+        "Active": 2,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-20",
+        "Active": 2,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-22",
+        "Active": 6,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-05-23",
+        "Active": 4,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-24",
+        "Active": 2,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-05-29",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-05-30",
+        "Active": 0,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-06-01",
+        "Active": 3,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-06-05",
+        "Active": 0,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-06-07",
+        "Active": 0,
+        "Inactive": 4
+    },
+    {
+        "Date": "2017-06-08",
+        "Active": 0,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-06-11",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-06-16",
+        "Active": 7,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-06-19",
+        "Active": 11,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-06-25",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-07-01",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-07-03",
+        "Active": 5,
+        "Inactive": 4
+    },
+    {
+        "Date": "2017-07-04",
+        "Active": 7,
+        "Inactive": 9
+    },
+    {
+        "Date": "2017-07-05",
+        "Active": 8,
+        "Inactive": 5
+    },
+    {
+        "Date": "2017-07-06",
+        "Active": 16,
+        "Inactive": 16
+    },
+    {
+        "Date": "2017-07-07",
+        "Active": 12,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-07-10",
+        "Active": 1,
+        "Inactive": 3
+    },
+    {
+        "Date": "2017-07-19",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-07-31",
+        "Active": 0,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-08-01",
+        "Active": 0,
+        "Inactive": 2
+    },
+    {
+        "Date": "2017-08-10",
+        "Active": 0,
+        "Inactive": 6,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-08-17",
+        "Active": 1,
+        "Inactive": 2
+    },
+    {
+        "Date": "2017-08-18",
+        "Active": 1,
+        "Inactive": 4,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-08-20",
+        "Active": 1,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-08-21",
+        "Active": 9,
+        "Inactive": 1,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-08-22",
+        "Active": 9,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-08-30",
+        "Active": 1,
+        "Inactive": 0,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-08-31",
+        "Active": 1,
+        "Inactive": 2
+    },
+    {
+        "Date": "2017-09-04",
+        "Active": 2,
+        "Inactive": 0,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-09-06",
+        "Active": 1,
+        "Inactive": 1
+    },
+    {
+        "Date": "2017-09-07",
+        "Active": 13,
+        "Inactive": 3
+    },
+    {
+        "Date": "2017-09-08",
+        "Active": 6,
+        "Inactive": 0,
+        "Data Extraction": 850
+    },
+    {
+        "Date": "2017-09-11",
+        "Active": 2,
+        "Inactive": 0
+    },
+    {
+        "Date": "2017-09-18",
+        "Active": 2,
+        "Inactive": 19,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-09-19",
+        "Active": 4,
+        "Inactive": 3
+    },
+    {
+        "Date": "2017-09-20",
+        "Active": 17,
+        "Inactive": 23,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-09-21",
+        "Active": 0,
+        "Inactive": 7,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-09-22",
+        "Active": 1,
+        "Inactive": 32
+    },
+    {
+        "Date": "2017-09-25",
+        "Active": 18,
+        "Inactive": 7,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-09-26",
+        "Active": 1,
+        "Inactive": 2
+    },
+    {
+        "Date": "2017-09-27",
+        "Active": 0,
+        "Inactive": 3,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-09-29",
+        "Active": 271,
+        "Inactive": 136
+    },
+    {
+        "Date": "2017-10-01",
+        "Active": 1,
+        "Inactive": 1,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-03",
+        "Active": 543,
+        "Inactive": 7,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-04",
+        "Active": 185,
+        "Inactive": 0,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-05",
+        "Active": 3,
+        "Inactive": 6,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-06",
+        "Active": 0,
+        "Inactive": 3,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-09",
+        "Active": 3,
+        "Inactive": 5,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-12",
+        "Active": 1,
+        "Inactive": 12,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-13",
+        "Active": 15,
+        "Inactive": 3,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-14",
+        "Active": 1,
+        "Inactive": 0,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-16",
+        "Active": 2,
+        "Inactive": 0,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-10-25",
+        "Active": 10,
+        "Inactive": 0,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-11-20",
+        "Active": 1,
+        "Inactive": 0,
+        "Data Extraction": 50
+    },
+    {
+        "Date": "2017-11-22",
+        "Active": 1,
+        "Inactive": 200,
+        "Data Extraction": 500
+    }
+]

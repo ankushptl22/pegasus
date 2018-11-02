@@ -1,0 +1,133 @@
+@import "../../assets/less/base/variables.less";
+@import "../../assets/less/base/mixins.less";
+
+.grid__landing--page {
+
+}
+
+@media (min-width: 1025px){
+  .fi-header--fixed {
+    .fi-header {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      z-index: 101;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 90px;
+      background-color: @accent-white;
+    }
+  }
+  .fi-header {
+    .box-shadow(0px 1px 15px 1px rgba(69,65,78,0.1));
+  }
+}
+
+
+
+
+.fi-aside-left{
+  .fi-aside-menu {
+    ul{
+      padding: 20px 0 40px 0;
+      height: 100%;
+      list-style: none;
+      margin: 0;
+      li {
+        text-align:center;
+        display: block;
+        height: auto;
+        width:100%;
+        padding: 0 ;
+        margin: 0 auto;
+        a {
+          display: block;
+          padding: 10px 0;
+          box-sizing: border-box;
+          > img{
+            text-align:center;
+            display: block;
+            height: auto;
+            width:35px;
+            max-height: 35px;
+            margin: 0 auto;
+          }
+          &:hover{
+            background-color: #eaedf2;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+.grid__landing--page .grid__item{
+   padding-bottom: 9px;
+       margin: 0;
+    backface-visibility: hidden;
+    z-index: 101;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background-color: #fff;
+     box-shadow:0 0 0px rgba(0,0,0,0.12), 0 2px 16px rgba(0,0,0,.24);
+}
+
+
+
+
+
+
+.page__header--content{
+    padding: 28px 13px 20px 40px;
+}
+
+.grid__landing--page .logout__btn{
+    float: right
+}
+
+.grid__navigation--content{
+    margin-top:0px;
+    position: fixed;
+    left: 127px;
+    top: 150px;
+}
+
+.page_container--sidebar{
+padding-right: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page__header--content{
+    padding: 28px 13px 20px 40px!important
+}
+
+.grid__landing--page .logout__btn{
+  float: right
+}
+
+.grid__navigation--content{
+  margin-top:0px;
+  position: fixed;
+  left: 127px;
+  top: 150px;
+}
+
+.page_container--sidebar{
+  padding-right: 15px;
+}

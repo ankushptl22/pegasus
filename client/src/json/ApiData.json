@@ -1,0 +1,25 @@
+{
+     "apis":
+     {
+
+       "getTopPractices": "/topPractices/1",
+       "getGraphCount":"/provider/graphCount",
+       "getProviderCount":"/provider/counts",
+     
+       "drillDown":"/provider/drillDown",
+       "hirarchicalData":"/application/hierachicalData",
+       "providerList": "/provider/providerList"    
+    }, 
+    "Providerparams": {
+      "highrarchy" : ["", "year", "quarter", "month"],
+      "level0":{},
+      "level1":{"year" : "2017", "agg": "quarter"},
+      "level2":{"year" : "2017", "quarter": "q1", "agg": "month"},
+      "level3":{"year" : "2017",  "month": "jan"}
+    },
+    "ProviderListparams": { 
+      "year" : "2017"
+    }
+    
+
+}

@@ -1,0 +1,22 @@
+
+.header__viewprofile--btn {
+  border-radius: 20px !important;
+  padding: 6px 20px !important;
+  font-size: 13px !important;
+}
+.btn__logout {
+  padding: 0;
+  color: #999;
+}
+.header__settinglink {
+  font-weight: bold;
+  cursor: pointer;
+}
+.header__profileContent--Namesection {
+  padding-left: 1em !important;
+}
+.masterHeader__profileIcon {
+  font-size: 17px !important;
+  margin: 0px 6px !important;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+{
+    "PracticeProperty": {
+        "Header": "Practice On Boarding",
+        "Description": "Practice graph help to understand..",
+        "Meta": "Scope for Meta...."
+    },
+    "ProviderProperty": {
+        "Header": "Onboarding Rate",
+        "Description": "get it on boarding.."
+    },
+    "RecentActivity": {
+        "Header": "API Data",
+        "Description": "Redux implementation to fetch Active Inactive count..."
+    },
+    "ProviderListing": {
+        "Header": "Provider Listing..",
+        "Description": "get your favourite provider",
+        "showSearch" : true
+    },
+    "Pagination": {
+        "activePage": 1,
+        "boundaryRange": 1,
+        "siblingRange": 1,
+        "showEllipsis": true,
+        "showFirstAndLastNav": true,
+        "showPreviousAndNextNav": true,
+        "totalPages": 50,
+        "url": "",
+        "perPage": 5
+    },
+    "Search": {
+        "url": "",
+        "params": { "search":"",  "year" : "2017"}
+    }
+}

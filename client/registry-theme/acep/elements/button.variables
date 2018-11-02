@@ -1,0 +1,10 @@
+@backgroundColor: #0000FF;
+
+@primaryColor:  #A05595;
+@secondaryColor: #1C9BD5;
+
+@fontWeight: normal;
+
+@appHeaderRegistry: #FF0000;
+
+
