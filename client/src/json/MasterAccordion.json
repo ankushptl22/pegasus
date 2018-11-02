@@ -1,0 +1,112 @@
+{
+  "header": {
+    "location": "LOCATION NAME",
+    "qualified": "QUALIFIED(ALL)",
+    "met": "MET(+)",
+    "notMet": "MET(-)",
+    "denExcl": "DEN EXCL",
+    "numExcl": "NUM EXCL",
+    "performance": "PERFORMANCE"
+  },
+  "accordions": {
+    "title": {
+      "type": {
+        "location": "string",
+        "qualified": "number",
+        "met": "number",
+        "notMet": "number",
+        "denExcl": "number",
+        "numExcl": "number",
+        "performance": "MasterProgressBar"
+      },
+      "data": [
+        {
+          "location": "DEMO LOCATION",
+          "qualified": "96",
+          "met": "96",
+          "notMet": "0",
+          "denExcl": "0",
+          "numExcl": "45",
+          "performance": "0"
+        },
+        {
+          "location": "DEMO LOCATION",
+          "qualified": "96",
+          "met": "96",
+          "notMet": "0",
+          "denExcl": "0",
+          "numExcl": "45",
+          "performance": "0"
+        },
+        {
+          "location": "DEMO LOCATION",
+          "qualified": "96",
+          "met": "96",
+          "notMet": "0",
+          "denExcl": "0",
+          "numExcl": "45",
+          "performance": "0"
+        },
+        {
+          "location": "DEMO LOCATION",
+          "qualified": "96",
+          "met": "96",
+          "notMet": "0",
+          "denExcl": "0",
+          "numExcl": "45",
+          "performance": "0"
+        },
+        {
+          "location": "DEMO LOCATION",
+          "qualified": "96",
+          "met": "96",
+          "notMet": "0",
+          "denExcl": "0",
+          "numExcl": "45",
+          "performance": "0"
+        },
+        {
+          "location": "DEMO LOCATION",
+          "qualified": "96",
+          "met": "96",
+          "notMet": "0",
+          "denExcl": "0",
+          "numExcl": "45",
+          "performance": "0"
+        }
+      ]
+    },
+    "content": {
+      "type": {
+        "component": "LineChart",
+        "component1": "ViewTable"
+      },
+      "data": [
+        {
+          "component": "LineChart",
+          "component1": "ViewTable"
+        },
+        {
+          "component": "LineChart",
+          "component1": "ViewTable"
+        },
+        {
+          "component": "LineChart",
+          "component1": "ViewTable"
+        },
+        {
+          "component": "LineChart",
+          "component1": "ViewTable"
+        },
+        {
+          "component": "LineChart",
+          "component1": "ViewTable"
+        },
+        {
+          "component": "LineChart",
+          "component1": "ViewTable"
+        }
+      ]
+    }
+  }
+}

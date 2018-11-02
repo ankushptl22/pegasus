@@ -10,7 +10,7 @@ class MasterClinicianGrid extends Component {
     this.state = {};
   }
   render() {
-    const { labels, data } = this.props.ClinicianGridViewProp;
+    const { labels, data } = this.props.clinicianGridViewProp;
 
     //This will render the header section of the Table
     const tableHeaders = (
@@ -67,19 +67,16 @@ class MasterClinicianGrid extends Component {
 
     return (
       //This will render the final table
-      <Container>
-        <p>Testing</p>
-        <Table basic="very">
-          {tableHeaders}
-          <Table.Body>{tableRows}</Table.Body>
-        </Table>
-      </Container>
+      <Table basic="very">
+        {tableHeaders}
+        <Table.Body>{tableRows}</Table.Body>
+      </Table>
     );
   }
 }
 
 MasterClinicianGrid.defaultProps = {
-  ClinicianGridViewProp: {
+  clinicianGridViewProp: {
     labels: {
       logo: "Logo",
       name: "NAME",
@@ -112,7 +109,7 @@ MasterClinicianGrid.defaultProps = {
 };
 
 MasterClinicianGrid.propTypes = {
-  ClinicianGridViewProp: PropTypes.object.isRequired
+  clinicianGridViewProp: PropTypes.object.isRequired
 };
 
 export default MasterClinicianGrid;

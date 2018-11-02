@@ -1,0 +1,20 @@
+{
+    "measureProp": {
+        "data": [
+            {
+                "label": "Achieved Performance",
+                "percentage": "78.08"
+            },
+            { 
+                "label": "CMS Benchmark",
+                "percentage": "45"
+            },
+            {
+                "label": "Registry Average",
+                "percentage": "85"
+            }
+        ],
+        "icon": "thumbs up outline",
+        "arrow": "arrow up"
+    }
+}

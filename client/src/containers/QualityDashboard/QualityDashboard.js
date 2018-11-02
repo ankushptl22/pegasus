@@ -1,15 +1,26 @@
 import React, { Component } from 'react';
-import { Segment, Icon, Label, Grid, Dropdown, Header, Menu, Progress } from 'semantic-ui-react';
-import './QualityDashboard.less';
-import Mastertable from '../../components/MasterDataTables/MasterDataTables';
-import { tableSchema, tableData } from '../../json/DataTableSchema.json';
-import MasterProgressBar from '../../components/MasterProgressBar/MasterProgressBar';
+import MasterFIGmdListView from '../../components/MasterFIGmdListView/MasterFIGmdListView';
+import fig from '../../json/MasterFIGmdListView.json';
+import { Card, Icon, Grid, Dropdown, Container, Progress } from 'semantic-ui-react';
 import { Link } from "react-router-dom";
+import MasterTab from '../../components/MasterTab';
+import MeasureDetailsHeader from '../../components/MeasureDetailsHeader'
+import DateComponent from '../../components/DateComponent/DateComponent';
+import MasterAccordionData from '../../json/MasterAccordion.json'
+//import MasterDataTable from '../../components/MasterDataTables/MasterDataTables';
+import MasterProgressBar from '../../components/MasterProgressBar/MasterProgressBar';
+const subComponents = { Progress, Icon, MasterProgressBar, Link };
+import { tableData, tableSchema } from '../../json/DataTableSchema.json';
 
+
+// const events = { addToFavoruite };
 class QualityDashboard extends Component {
-
-
-
+    constructor(props) {
+        super(props)
+        this.state = {
+            masterAccordionProps: MasterAccordionData
+        }
+    }
 
     onDurationChange = (event) => {
 
@@ -23,92 +34,124 @@ class QualityDashboard extends Component {
 
     }
 
-   
-
-    render() {
-        const addToFavouriteHandler = () => {
-            alert('clicked adsad');
+    addToFavoruite = (e) => {
+        let classes = e.target.classList;
+        if (classes.contains('outline')) {
+            e.target.classList.remove('outline')
         }
-   
-        debugger;
-        const { durationProp, measureSetProp, practiceProp } = this.props.QualityDashboardData
-        const subComponents = { Progress, Segment, Icon, MasterProgressBar,Link };
-        const events = { addToFavouriteHandler };
+        else {
+            e.target.classList.add('outline')
+        }
+    }
+
+    state = {
+        tableSchema: {},
+        tableData: {},
+        subComponents: {},
+        events: {}
+    }
+
+    componentDidMount() {
+        let addToFavoruite = this.addToFavoruite;
+        const events = { addToFavoruite };
+        this.setState({
+            ...this.state,
+            tableSchema: tableSchema,
+            tableData: tableData,
+            subComponents: subComponents,
+            events: events
+        });
+    }
+    
+    render() {
+        
         return (
-            <Segment basic className="seg">
-                <Header textAlign="left" as='h1'>Quality Dashboard</Header>
-                <Segment basic className="seg">
-                    <Grid>
-                        <Grid.Row>
-                            <Grid.Column width={2}>
-                                <p>Select Your Practice</p>
-                                <Dropdown
-                                    selection
-                                    options={practiceProp}
-                                    onChange={this.onPracticesChange} />
+            <Container fluid className="measureDetails">
+                <Grid>
+                    <Grid.Column width={4} as="h4">
+                        QualityDashboard
                             </Grid.Column>
-                            <Grid.Column width={2}>
-                                <p>Select Duration</p>
-                                <Dropdown
-                                    selection
-                                    options={durationProp}
-                                    onChange={this.onDurationChange} />
-                            </Grid.Column>
-                            <Grid.Column width={2}>
-                                <p>Select Measure Set</p>
-                                <Dropdown
-                                    selection
-                                    options={measureSetProp}
-                                    onChange={this.onMeasureChange} />
-                            </Grid.Column>
-                        </Grid.Row>
-                    </Grid>
-                </Segment>
-                <Segment basic className="seg">
-                    <Mastertable
-                        tableSchema={tableSchema}
-                        tableData={tableData}
-                        subComponents={subComponents}
-                        events={events} 
+                    {/* <Grid.Column width={3} className="middleColumn">
+                        year
+                        <Dropdown
+                            placeholder='Select...'
+                            selection
+                            options={this.props.measureDetailsData.dropDownData.options}
+                            onChange={this.onDropdownChange}
                         />
-                </Segment>
-            </Segment>
-        );
+                    </Grid.Column> */}
+                    <Grid.Column width={11} textAlign='right' >
+                        <DateComponent dates={this.props.dates} />
+                    </Grid.Column>
+                </Grid>
+                <Grid>
+                    <Grid.Column width={15} as="h4">
+                        <MasterTab {...this.state}{...this.props} />
+                    </Grid.Column>
+                </Grid>
+            </Container>
+        )
     }
 }
 
 QualityDashboard.defaultProps = {
-
-    durationProp: [
+    measureDetailsData: {
+        "dropDownData": {
+            "options": [
+                {
+                    "value": "2018",
+                    "text": "2018"
+                },
+                {
+                    "value": "2019",
+                    "text": "2019"
+                },
+                {
+                    "value": "2020",
+                    "text": "2020"
+                }
+            ]
+        },
+        "headerLabelData": {
+            "name": "503709- Web demo Practice"
+        }
+    },
+    masterTabProp: [
         {
-            "key": "1",
-            "text": "2018Q4",
-            "value": "1"
+            menuItem: 'PRACTICE',
+            cssClass: '',
+            activeIndex: 1,
+            icon: 'users',
+            defaultActiveIndex: true,
+            router: 'MeasureDetailsHeader',
+            "iconUrl": "../../assets/svg/practice.svg",
+            measureDetailsHeaderProps: [
+                "MasterDataTables"
+            ]
         },
         {
-            "key": "2",
-            "text": "2018Q3",
-            "value": "2"
-        }
-    ],
-    measureSetProp: [
-        {
-            "key": "1",
-            "text": "2018 MIPS Measure",
-            "value": "1"
+            menuItem: 'CLINICIANS',
+            cssClass: '',
+            activeIndex: 2,
+            icon: 'users',
+            defaultActiveIndex: false,
+            router: 'MeasureDetailsHeader',
+            "iconUrl": "../../assets/svg/clinician.svg",
+            measureDetailsHeaderProps: [
+                "MasterAccordion"
+            ]
         },
         {
-            "key": "2",
-            "text": "Registry Measure",
-            "value": "2"
-        }
-    ],
-
-    practiceProp: [
-        {
-            "key": "2",
-            "text": "537908 - Web Demo Practice",
-            "value": "2"
+            menuItem: 'LOCATIONS',
+            cssClass: '',
+            activeIndex: 3,
+            icon: 'users',
+            defaultActiveIndex: false,
+            router: 'MeasureDetailsHeader',
+            "iconUrl": "../../assets/svg/ehr.svg",
+            measureDetailsHeaderProps: [
+                "MasterAccordion"
+            ]
         }
     ]
 }

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { Tab } from 'semantic-ui-react';
+import { Tab, Menu, Container, Image } from 'semantic-ui-react';
 import * as AllComponents from '../../json/NavigationMapping';
+import "./MasterTab.less";
 
 class MasterTab extends Component {
     constructor(props) {
         super(props);
         this.state = {};
-  
+
     }
 
     // this will call createPanes function to create tabs as per provided props
@@ -16,16 +17,17 @@ class MasterTab extends Component {
     }
 
     // this funtion is to create panes
-    createPanes(masterTabProp) {    
+    createPanes(masterTabProp) {
         let panes = [];
         var DynamicComponent;
         masterTabProp.map((singleTab, index) => {
-            let ChildComp = AllComponents[''+singleTab.router];
+            let ChildComp = AllComponents['' + singleTab.router];
             panes.push({
-                menuItem: singleTab.menuItem,
+                menuItem: <Menu.Item className="tabgroup--lables"><Image src={singleTab.iconUrl} className="tabgroup__iconimage" />{singleTab.menuItem}</Menu.Item>,
+                // menuItem: singleTab.menuItem,
                 render: () => (
-                    <Tab.Pane>
-                        <ChildComp />
+                    <Tab.Pane className="tabcontent--setpadding">
+                        <ChildComp {...this.props} {...this.props.masterTabProp[index]} />
                     </Tab.Pane>
                 )
             });
@@ -34,16 +36,18 @@ class MasterTab extends Component {
     };
 
     // this function will handle click event
-    onTabChangeHandler(e){
-    // console.log(e);
+    onTabChangeHandler(e) {
+        // console.log(e);
     };
 
     // render function for MasterTabs
     render() {
+        console.log(this.props.masterAccordionProps);
+        
         const { masterTabProp, panes } = this.state;
         return (
             <Tab
-                menu={{ secondary: true, pointing: true }}
+                className='main-tab__wrapper'
                 panes={panes}
                 onTabChange={this.onTabChangeHandler}
             />

@@ -1,0 +1,531 @@
+{
+  "PracticeInfo": {
+    "practiceId": "Practice ID",
+    "practiceName": "Practice Name",
+    "practicestatus": "Practice Status",
+    "address1": "Address 1",
+    "timezone": "Practice Time Zone",
+    "state": "State",
+    "city": "City",
+    "zip": "Zip",
+    "Save": "Save",
+    "Cancel": "Cancel",
+    "eaddress": "Email Address",
+    "number": "Phone number"
+  },
+  "ListExport": {
+    "labels": {
+      "pdf": "ListViewCard.pdf",
+      "csv": "ListViewCard.csv",
+      "Exl": "ListViewCard.xlsx"
+    },
+    "listExportProp": [
+      {
+        "id": "437102",
+        "name": "UCLA Hospital",
+        "currentStatus": "In-active"
+      },
+      {
+        "id": "437103",
+        "name": "UCLA Hospital2",
+        "currentStatus": "In-active"
+      }
+    ]
+  },
+  "MeasureSegment": {
+    "measureProp": {
+      "data": [
+        {
+          "label": "Achieved Performance",
+          "percentage": "78.08"
+        },
+        {
+          "label": "CMS Benchmark",
+          "percentage": "45"
+        },
+        {
+          "label": "Registry Average",
+          "percentage": "85"
+        }
+      ],
+      "icon": "thumbs up outline",
+      "arrow": "arrow up"
+    }
+  },
+  "ViewTable": {
+    "viewTableDataProp": {
+      "data": [
+        {
+          "_QUARTER": "2018Q1",
+          "_ALL": "25471",
+          "_MET(+)": "204124",
+          "_NON MET(-)": "2013"
+        },
+
+        {
+          "_QUARTER": "2017Q4",
+          "_ALL": "25472",
+          "_MET(+)": "204123",
+          "_NON MET(-)": "2010"
+        },
+
+        {
+          "_QUARTER": "2017Q3",
+          "_ALL": "25473",
+          "_MET(+)": "204122",
+          "_NON MET(-)": "2011"
+        }
+      ],
+      "cols": [
+        {
+          "key": "_QUARTER",
+          "label": "QUARTER"
+        },
+
+        {
+          "key": "_ALL",
+          "label": "ALL"
+        },
+
+        {
+          "key": "_MET(+)",
+          "label": "MET(+)"
+        },
+
+        {
+          "key": "_NON MET(-)",
+          "label": "NON MET(-)"
+        }
+      ],
+      "Labels": "(+) - Met,  (-) - Not Met"
+    }
+  },
+
+  "LineChart": {
+    "config": {
+      "type": "serial",
+      "theme": "light",
+      "legend": {
+        "data": [
+          {
+            "title": "practiceperformance",
+            "color": "green",
+            "markerType": "circle"
+          },
+          {
+            "title": "registry average",
+            "color": "black",
+            "markerType": "circle"
+          }
+        ],
+        "position": "top",
+        " autoMargins": false,
+        "align": "right"
+      },
+      "guides": [
+        {
+          "expand": true,
+          "lineColor": "black",
+          "value": 85,
+          "lineAlpha": 1,
+          "lineThickness": 1
+        }
+      ],
+      "dataProvider": [
+        {
+          "quarter": "x-axis label",
+          "performance": 30,
+          "AVG": 85
+        }
+      ],
+      "graphs": [
+        {
+          "id": "practiceperformance",
+          "lineColor": "green",
+          "bullet": "round",
+          "bulletBorderAlpha": 1,
+          "bulletColor": "green",
+          "title": "practiceperformance",
+          "valueField": "performance",
+          "lineThickness": 1
+        },
+        {
+          "id": "Average",
+          "lineColor": "black",
+          "bullet": "round",
+          "bulletBorderAlpha": 1,
+          "bulletColor": "Black",
+          "title": "Average",
+          "valueField": "AVG",
+          "lineThickness": 1
+        }
+      ],
+      "categoryField": "quarter",
+      "AxisBase": {
+        "autoGridCount": false
+      },
+      "valueAxes": [
+        {
+          "strictMinMax": true,
+          "autoGridCount": false,
+          "gridCount": 5,
+          "axisThickness": 0.5,
+          "gridAlpha": 0.2,
+          "axisAlpha": 1,
+          "position": "left",
+          "minimum": 0,
+          "maximum": 100,
+          "baseCoord": 0,
+          "offset": 1,
+          "tickLength": 0
+        }
+      ],
+      "categoryAxis": {
+        "lineAlpha": 1,
+        "startOnAxis": true,
+        "axisColor": "green",
+        "minorGridEnabled": true
+      },
+      "export": {
+        "enabled": true
+      }
+    },
+    "dataProvider": [
+      {
+        "quarter": "2017/Q1",
+        "performance": 10,
+        "AVG": 85
+      },
+      {
+        "quarter": "2017/Q2",
+        "performance": 20,
+        "AVG": 85
+      },
+      {
+        "quarter": "2017/Q3",
+        "performance": 30,
+        "AVG": 85
+      },
+      {
+        "quarter": "2017/Q4",
+        "performance": 40,
+        "AVG": 85
+      }
+    ]
+  },
+
+  "MasterProgressBar": {
+    "performanceData": {
+      "measurePerformanceText": "Achieved Performance",
+      "measurePerformance": 50,
+      "benchMark": [
+        {
+          "label": "Registry Average",
+          "data": 80,
+          "position": "below",
+          "colorcode": ""
+        },
+        {
+          "label": "Registry BenchMark",
+          "data": 20,
+          "position": "below",
+          "colorcode": ""
+        },
+        {
+          "label": "CMS Average",
+          "data": 40,
+          "position": "below",
+          "colorcode": ""
+        }
+      ],
+      "difference": 5,
+      "mean": 5,
+      "colorcode": ""
+    }
+  },
+
+  "DateComponent": {
+    "dates": {
+      "updated": "11 12 2001 04:22:22",
+      "startDate": "11 12 2001 04:22:22",
+      "endDate": "11 12 2001 04:22:22"
+    }
+  },
+
+  "AddAdmin": {
+    "member_id": "Member ID",
+    "valideate_npi": "Validate NPI",
+    "fname": "First Name*",
+    "mname": "Middle Name",
+    "lname": "Last Name*",
+    "uname": "username*",
+    "eaddress": "Email Address",
+    "aladdress": "Alternate Email Address",
+    "number": "Phone Number",
+    "Add": "ADD"
+  },
+
+  "AddPractice": {
+    "practiceId": "PracticeId",
+    "practiceName": "practiceName",
+    "practicestatus": "Practice Status",
+    "address1": "address1*",
+    "timezone": "Practice Time zone",
+    "state": "state*",
+    "city": "city*",
+    "zip": "zip*",
+    "Add": "ADD"
+  },
+
+  "AddTin": {
+    "tnumber": "Tin Number*",
+    "vfrom": "Valid From*",
+    "vto": "Valid To*",
+    "Add": "ADD"
+  },
+
+  "MasterClinicianGrid": {
+    "clinicianGridViewProp": {
+      "labels": {
+        "logo": "Logo",
+        "name": "NAME",
+        "npi": "NPI",
+        "clinicianType": "CLINICIAN TYPE",
+        "role": "ROLE",
+        "tinDetails": "TIN DETAILS",
+        "tinFromDate": "TIN START DATE",
+        "tinEndDate": "TIN END DATE",
+        "phone": "CONTACT DETAILS",
+        "mail": "EMAIL ID",
+        "editIcon": "EDIT ICON"
+      },
+      "data": [
+        {
+          "logo": "../../../assets/images/logo.jpg",
+          "name": "Smith Mary",
+          "npi": "2345634567",
+          "clinicianType": "../../../assets/images/logo.jpg",
+          "role": "Practice Admin",
+          "tinDetails": "3456782390",
+          "tinFromDate": "01 Jan 2018",
+          "tinEndDate": "31 Dec 2018",
+          "phone": "617-726-2000",
+          "mail": "marysmith@gmail.com",
+          "editIcon": "../../../assets/images/logo.jpg"
+        }
+      ]
+    }
+  },
+  "MasterDataTables": {
+    "tableSchema": [
+      {
+        "favourite": {
+          "header": "",
+          "component": {
+            "name": "Icon",
+            "props": ["name"],
+            "value": {
+              "name": "heart outline",
+              "favoruite": false
+            }
+          },
+          "style": {
+            "width": "10%",
+            "position": "relative",
+            "top": "50%"
+          },
+          "click": "addToFavouriteHandler"
+        }
+      },
+      {
+        "id": {
+          "header": "ID",
+          "style": {
+            "width": "5%",
+            "position": "relative",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "measure": {
+          "header": "MEASURE",
+          "style": {
+            "width": "30%",
+            "position": "relative",
+            "top": "50%"
+          }
+        }
+      },
+      {
+        "performance": {
+          "header": "ACHIEVED PERFORMANCE",
+          "component": {
+            "name": "MasterProgressBar",
+            "props": ["progressData"]
+          },
+          "style": {
+            "width": "40%"
+          }
+        }
+      }
+    ],
+    "tableData": [
+      {
+        "favourite": {
+          "name": "heart outline"
+        },
+        "id": "101",
+        "measure": "Melanoma: Overutilizzation of imaging",
+        "performance": {
+          "progressData": {
+            "percentPerformanceText": "Achieved Performance",
+            "percentPerformance": 66.05,
+            "cmsBenchMark": 45,
+            "isCmsBenchMark": true,
+            "registryAverage": 82,
+            "isRegistryAverage": true,
+            "difference": 5,
+            "mean": 5
+          }
+        }
+      }
+    ],
+    "subComponents": "subComponents",
+    "events": "events"
+  },
+  "MasterFIGmdListView": {
+    "figmdListViewProp": {
+      "labels": {
+        "id": "Pract. ID.",
+        "logo": "../../../assets/svg/call.svg",
+        "name": "Clinic Name",
+        "currentStatus": "Active/In-active Status",
+        "progressStatus": "Status",
+        "address": "Address",
+        "cell": "Contact No.",
+        "mail": "Email ID.",
+        "serviceCount": "Clinician/s",
+        "tinCount": "TIN/s",
+        "locationCount": "Location/s",
+        "ehrCount": "EHR/s"
+      },
+      "data": [
+        {
+          "id": "437102",
+          "logo": "../../../assets/images/logo.jpg",
+          "name": "UCLA Medical Center",
+          "currentStatus": "Active",
+          "progressStatus": "Status 5: Production (Onboard)",
+          "address": "1250 16th street santa monica, CA 90404",
+          "cell": "424-259-6000",
+          "mail": "ulcamedicalcenter@gmail.com",
+          "serviceCount": "173",
+          "tinCount": "28",
+          "locationCount": "170",
+          "ehrCount": "12"
+        },
+        {
+          "id": "437103",
+          "logo": "../../../assets/images/logo.jpg",
+          "name": "UCLA Hospital",
+          "currentStatus": "In-active",
+          "progressStatus": "Status 7: Testing (Onboard)",
+          "address": "FIGMD baner pashan road",
+          "cell": "424-259-6000",
+          "mail": "ulcamedicalcenter@gmail.com",
+          "serviceCount": "173",
+          "tinCount": "28",
+          "locationCount": "170",
+          "ehrCount": "12"
+        }
+      ]
+    }
+  },
+  "MasterPaymentDetails": {
+    "MasterPaymentDetailsProps": {
+      "Header": "PAYMENTS",
+      "Month": "Aug",
+      "Day": "05",
+      "Year": 2018,
+      "ReceiptNo": "1234rere567890",
+      "TermPlan": "Web",
+      "PaymentMode": "Credit Card",
+      "AmountPaid": "51,208",
+      "AmountPaidStatus": "SUCCESSFUL"
+    }
+  },
+
+  "MasterPracticeGrid": {
+    "MasterPracticeGridprops": {
+      "header": {
+        "title": "PRACTICE TIN DETAILS",
+        "count": "28",
+        "buttontext": "Add New TIN"
+      },
+      "content": {
+        "heading": [
+          { "key": "tin", "label": "TIN DETAILS" },
+          { "key": "startdate", "label": "DURATION" },
+          { "key": "enddate", "label": "" },
+          { "key": "editicon", "label": "" }
+        ],
+        "data": [
+          {
+            "tin": "3456782390",
+            "startdate": "01 Jan 2018",
+            "enddate": "31 Dec 2018",
+            "editicon": ""
+          },
+          {
+            "tin": "3456782390",
+            "startdate": "01 Jan 2018",
+            "enddate": "31 Dec 2018",
+            "editicon": ""
+          },
+          {
+            "tin": "3456782390",
+            "startdate": "01 Jan 2018",
+            "enddate": "31 Dec 2018",
+            "editicon": ""
+          },
+          {
+            "tin": "3456782390",
+            "startdate": "01 Jan 2018",
+            "enddate": "31 Dec 2018",
+            "editicon": ""
+          },
+          {
+            "tin": "3456782390",
+            "startdate": "01 Jan 2018",
+            "enddate": "31 Dec 2018",
+            "editicon": ""
+          }
+        ]
+      }
+    }
+  },
+  "MasterTab": {
+    "masterTabProp": [
+      {
+        "menuItem": "Practice Info",
+        "cssClass": "",
+        "activeIndex": 1,
+        "icon": "users",
+        "defaultActiveIndex": true,
+        "router": "MasterFIGmdListView"
+      },
+      {
+        "menuItem": "Clinician Info",
+        " cssClass": "",
+        "activeIndex": 2,
+        "icon": "users",
+        "defaultActiveIndex": false,
+        "router": "PracticeListView"
+      }
+    ]
+  },
+  "MeasureDetailsHeader": {
+    "measureDetailsHeaderProps": ["MasterUserProfile", "MasterAccordion"]
+  }
+}

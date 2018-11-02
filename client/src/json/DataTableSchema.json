@@ -14,20 +14,16 @@
                     }
                 },
                 "style": {
-                    "width": "10%",
-                    "position": "relative",
-                    "top": "50%"
+                    "width": "5%"
                 },
-                "click": "addToFavouriteHandler"
+                "click": "addToFavoruite"
             }
         },
         {
             "id": {
                 "header": "ID",
                 "style": {
-                    "width": "5%",
-                    "position": "relative",
-                    "top": "50%"
+                    "width": "5%"
                 }
             }
         },
@@ -35,9 +31,7 @@
             "measure": {
                 "header": "MEASURE",
                 "style": {
-                    "width": "30%",
-                    "position": "relative",
-                    "top": "50%"
+                    "width": "30%"
                 }
             }
         },
@@ -55,7 +49,6 @@
                 }
             }
         }
-
     ],
     "tableData": [
         {

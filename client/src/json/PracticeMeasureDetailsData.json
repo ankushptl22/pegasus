@@ -1,0 +1,24 @@
+{
+    "dataProvider" : [ {
+            "quarter": "2017/Q1",
+            "performance":80,
+            "AVG":85
+          },
+          {
+            "quarter": "2017/Q2",
+            "performance": 40,
+            "AVG":85
+          },
+          {
+            "quarter": "2017/Q3",
+            "performance": 90,
+            "AVG":85
+          },
+          {
+            "quarter": "2017/Q4",
+            "performance":10,
+            "AVG":85
+          }
+          
+        ]
+    }

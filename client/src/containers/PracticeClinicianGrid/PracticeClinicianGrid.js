@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import ClinicianGridViewProp from "../../json/MasterClinicianGrid.json";
+import cliniciangridviewprop from "../../json/MasterClinicianGrid.json";
 import MasterClinicianGrid from "../../components/MasterClinicianGrid";
 
 class PracticeClinicianGrid extends Component {
   render() {
     return (
-      <MasterClinicianGrid ClinicianGridViewProp={ClinicianGridViewProp} />
+      <MasterClinicianGrid clinicianGridViewProp={cliniciangridviewprop} />
     );
   }
 }

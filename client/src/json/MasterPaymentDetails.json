@@ -1,0 +1,13 @@
+{
+    "MasterPaymentDetailsProps" : { 
+        "Header": "PAYMENTS",
+        "Month": "Aug",
+        "Day": "05",
+        "Year": 2018,
+        "ReceiptNo": "1234rere567890",
+        "TermPlan": "Web",
+        "PaymentMode": "Credit Card",
+        "AmountPaid": "51,208",
+        "AmountPaidStatus":"SUCCESSFUL"
+    }
+}

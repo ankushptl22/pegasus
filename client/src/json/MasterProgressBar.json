@@ -1,12 +1,17 @@
 {
-    "progressData": {
-    "percentPerformanceText": "Achieved Performance",
-    "percentPerformance": 66.05,
-    "cmsBenchMark": 45,
-    "isCmsBenchMark": true,
-    "registryAverage": 82,
-    "isRegistryAverage": true,
+  "performanceData": {
+    "measurePerformanceText": "Achieved Performance",
+    "measurePerformance": 50,
+    "benchMark": [
+      {
+        "label": "Registry Average",
+        "data": 80,
+        "position": "below",
+        "colorcode": ""
+      }
+    ],
     "difference": 5,
-    "mean": 5
-}
+    "mean": 5,
+    "colorcode": ""
+  } 
 }

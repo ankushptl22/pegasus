@@ -1,48 +1,57 @@
 import React, { Component } from 'react';
-import { Icon, Progress, Segment, Divider } from 'semantic-ui-react';
+import { Icon, Progress, Segment, Divider,Popup } from 'semantic-ui-react';
 import './MasterProgressBar.less';
 
 class MasterProgressBar extends Component {
   constructor(props) {
     super(props);
     //now set default vaule in case if it is not in props. 
-      //this.state = { progressData: this.props.progressData };
-     
+    //this.state = { progressData: this.props.progressData };
+
   }
 
   render() {
-console.log(this.props.progressData)
-    const cmsBenchMarkJsx = (this.props.progressData.isCmsBenchMark) ? <Segment.Group className="mark-parent cms-bench-mark" style={{ left: `${this.props.progressData.cmsBenchMark}%` }}>
-      <Segment textAlign="center" className="mark-child" > <Icon fitted name="sort up" size="big" className="master-icon sort-up" /></Segment>
-      <Segment textAlign="center" className="mark-child" >{this.props.progressData.cmsBenchMark} % </Segment>
-    </Segment.Group> : null;
+    const benchmark = [...this.props.performanceData.benchMark];
 
-    const RegistryAverageJsx = (this.props.progressData.isRegistryAverage) ? <Segment.Group className="mark-parent" style={{ left: `${this.props.progressData.registryAverage}%` }}>
-      <Segment textAlign="center" className="mark-child" > {this.props.progressData.registryAverage} % </Segment>
-      <Segment textAlign="center" className="mark-child" ><Icon fitted name="sort down" size="big" className="master-icon" /></Segment>
-    </Segment.Group> : null;
+    const belowPosBenchmark = benchmark.filter((item) => {
+      return item.position != null && item.position.toLowerCase() === "below";
+    });
 
-    let difference;
+    const abovePosBenchmark = benchmark.filter((item) => {
+      return item.position != null && item.position.toLowerCase() === "above";
+    });
 
-    if (this.props.progressData.difference === null)
-      difference = ((this.props.progressData.isCmsBenchMark) ? this.props.progressData.cmsBenchMark : this.props.progressData.registryAverage) - this.props.progressData.percentPerformance;
-    else
-      difference = this.props.progressData.difference;
+    const belowPosBenchmarkJsx = belowPosBenchmark.map((posData, index) => {
+      return ( <Popup trigger={<Segment.Group className="mark-parent cms-bench-mark" style={{ left: `${posData.data}%` }}>
+        <Segment textAlign="center" className="mark-child" > <Icon fitted name="sort up" size="big" className="master-icon sort-up" /></Segment>
+        <Segment textAlign="center" className="mark-child" >{posData.data} % </Segment>
+      </Segment.Group>} content={posData.label}  inverted />);
 
-    let progressColorCode = (difference >= 0) ? "progressbar progress-bar-success" : (Difference >= mean) ? "progressbar progress-bar-warning" : "progressbar progress-bar-danger";
+    });
+
+    const abovePosBenchmarkJsx = abovePosBenchmark.map((posData, index) => {
+      return (<Popup trigger={<Segment.Group className="mark-parent" style={{ left: `${posData.data}%` }}>
+        <Segment textAlign="center" className="mark-child" > {posData.data} % </Segment>
+        <Segment textAlign="center" className="mark-child" ><Icon fitted name="sort down" size="big" className="master-icon" /></Segment>
+      </Segment.Group>} content={posData.label}  inverted />);
+
+    });
+
+     
+    let progressColorCode =  "no-box-shadow no-padding no-margin parent-progress " +this.props.performanceData.colorcode;
 
     return (
-      <Segment.Group horizontal className="no-box-shadow no-padding no-margin">
+      <Segment.Group horizontal className={progressColorCode}>
         <Segment basic textAlign="center" className="no-box-shadow no-border no-margin width-90 ">
-          {RegistryAverageJsx}
+          {abovePosBenchmarkJsx}
           <Segment basic className='progress-segment' textAlign='left'>
-            <Segment basic className="measure-performance-bar" style={{ left: `${this.props.progressData.percentPerformance}%` }} >I</Segment>
-            <Progress className={progressColorCode} percent={this.props.progressData.percentPerformance} fitted color="black" size="tiny" />
+            <Segment basic className="measure-performance-bar" style={{ left: `${this.props.performanceData.measurePerformance}%` }} >I</Segment>
+            <Progress className="progress-bar" percent={this.props.performanceData.measurePerformance} fitted color="black" size="tiny" />
           </Segment>
-          {cmsBenchMarkJsx}
+          {belowPosBenchmarkJsx}
         </Segment>
         <Segment basic textAlign='left' className="no-box-shadow no-margin font-size-20 width-10 vertical-align-middle" >
-          <label className={progressColorCode}>{this.props.progressData.percentPerformance} %</label>  </Segment>
+        <Popup trigger={<label className="progress-bar">{this.props.performanceData.measurePerformance} %</label>} content={this.props.performanceData.measurePerformanceText}  inverted />  </Segment>
       </Segment.Group>
     );
   }
@@ -50,15 +59,32 @@ console.log(this.props.progressData)
 
 }
 MasterProgressBar.defaultProps = {
-  progressData: {
-    percentPerformanceText: "Achieved Performance",
-    percentPerformance: 0,
-    cmsBenchMark: 50,
-    isCmsBenchMark: false,
-    registryAverage: 50,
-    isRegistryAverage: true,
+  performanceData: {
+    measurePerformanceText: "Achieved Performance",
+    measurePerformance: 50,
+    benchMark: [
+      {
+        label: "Registry Average",
+        data: 80,
+        position: "above",
+        colorcode:""
+      },
+      {
+        label: "Registry BenchMark",
+        data: 20,
+        position: "below",
+        colorcode:""
+      },
+      {
+        label: "CMS Average",
+        data: 40,
+        position: "below",
+        colorcode:""
+      }
+    ],
     difference: 5,
-    mean: 5
+    mean: 5,
+    colorcode:""
   }
 };
 

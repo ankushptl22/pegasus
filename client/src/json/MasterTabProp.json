@@ -6,7 +6,8 @@
       "activeIndex": 1,
       "icon": "users",
       "defaultActiveIndex": true,
-      "router": "PracticeListView"
+      "router": "PracticeListView",
+      "iconUrl": "../../assets/svg/practice.svg"
     },
     {
       "menuItem": "Clinicians",
@@ -14,7 +15,8 @@
       "activeIndex": 2,
       "icon": "users",
       "defaultActiveIndex": false,
-      "router": "MasterCardView"
+      "router": "MasterCardView",
+      "iconUrl": "../../assets/svg/clinician.svg"
     },
     {
       "menuItem": "Locations",
@@ -22,7 +24,8 @@
       "activeIndex": 3,
       "icon": "users",
       "defaultActiveIndex": false,
-      "router": "PracticeListView"
+      "router": "PracticeListView",
+      "iconUrl": "../../assets/svg/location.svg"
     },
     {
       "menuItem": "EHR Info",
@@ -30,7 +33,8 @@
       "activeIndex": 4,
       "icon": "users",
       "defaultActiveIndex": true,
-      "router": "MasterCardView"
+      "router": "MeasureDetails",
+      "iconUrl": "../../assets/svg/ehr.svg"
     },
     {
       "menuItem": "Custom Info",
@@ -38,7 +42,8 @@
       "activeIndex": 5,
       "icon": "users",
       "defaultActiveIndex": true,
-      "router": "PracticeClinicianGrid"
+      "router": "PracticeClinicianGrid",
+      "iconUrl": "../../assets/svg/custom.svg"
     }
   ]
 }

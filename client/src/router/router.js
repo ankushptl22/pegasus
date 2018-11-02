@@ -18,7 +18,13 @@ import {
   MeasureDetails,
   QualityDashboard,
   PracticeMeasureDetails,
-  PracticeQualityDashboard
+  PracticeQualityDashboard,
+  MasterPracticeGrid,
+  PracticeInfoGrid,
+  PracticeInfoView,
+  MasterAccordion,
+  PracticeMasterAccordion,
+  MeasureDetailsHeader
 } from '../json/NavigationMapping';
 
 const RouterClass = () => (
@@ -28,13 +34,14 @@ const RouterClass = () => (
     <Route path="/measures" component={Measures} />
     <Route component={NotFound} /> */}
   </Switch>
+
 );
 
 const LeftNavigationRoutes = () => (
-  <Grid>
+  <Grid className="fi-content-right__wrapper">
     <Route path={`/landingPage/PracticeMeasureDetails`} component={PracticeMeasureDetails} />
+    <Route path={`/landingPage/MeasureDetailsHeader`} component={MeasureDetailsHeader} />
     <Route path={`/landingPage/MeasureDetails`} component={MeasureDetails} />
-    {/* <Route path={`/landingPage/QualityDashboard/MeasureDetails`} component={MeasureDetails} /> */}
     <Route path={`/landingPage/MasterCard`} component={MasterCardView} />
     <Route path={`/landingPage/MasterTab`} component={PracticeMasterTab} />
     <Route path={`/landingPage/MasterFIGmdListView`} component={PracticeListView} />
@@ -42,8 +49,12 @@ const LeftNavigationRoutes = () => (
     <Route path={`/landingPage/MasterFooter`} component={MasterFooter} />
     <Route path={`/landingPage/MasterNavigationMenu`} component={MasterNavigationMenu} />
     <Route path={`/landingPage/QualityDashboard`} component={PracticeQualityDashboard} />
+    <Route path={`/landingPage/MasterAccordion`} component={MasterAccordion} />
+    <Route path={`/landingPage/MasterPracticeGrid`} component={MasterPracticeGrid} />
+    <Route path={`/landingPage/PracticeInfoView`} component={PracticeInfoView} />
+    <Route path={`/landingPage/PracticeInfoGrid`} component={PracticeInfoGrid} />
+    <Route path={`/landingPage/PracticeMasterAccordion`} component={PracticeMasterAccordion} />
   </Grid>
 );
-
 
 export { RouterClass, LeftNavigationRoutes };

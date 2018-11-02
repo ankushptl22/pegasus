@@ -15,8 +15,8 @@
   "data": [
     {
       "logo": "../../../assets/images/logo.jpg",
-      "name": "Smith Mary",
-      "npi": "2345634567",
+      "name": "Test Smith Mary",
+      "npi": "2785656567",
       "clinicianType": "../../../assets/images/logo.jpg",
       "role": "Practice Admin",
       "tinDetails": "3456782390",
@@ -28,7 +28,7 @@
     },
     {
       "logo": "../../../assets/images/logo.jpg",
-      "name": "Smith Mary",
+      "name": "p Smith Mary",
       "npi": "2345634567",
       "clinicianType": "../../../assets/images/logo.jpg",
       "role": "Registry Admin",

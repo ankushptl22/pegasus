@@ -1,0 +1,126 @@
+{
+  "practiceadmin": {
+    "header": {
+      "title": "PRACTICE ADMIN CONTACT DETAILS",
+      "count": "128",
+      "buttontext": "Add New Admin"
+    },
+    "content": {
+      "heading": [
+        { "key": "logo", "label": "" },
+        { "key": "name", "label": "NAME & NPI" },
+        { "key": "npi", "label": "" },
+        { "key": "phone", "label": "CONTACT DETAILS" },
+        { "key": "email", "label": "" },
+        { "key": "usertype", "label": "USER TYPE" },
+        { "key": "editicon", "label": "" }
+      ],
+      "data": [
+        {
+          "logo": "",
+          "name": "Smith Mary",
+          "npi": "2345678902",
+          "phone": "617-726-2000",
+          "email": "marysmith@gmail.com",
+          "usertype": "Clinician",
+          "editicon": ""
+        },
+        {
+          "logo": "",
+          "name": "Smith Mary",
+          "npi": "2345678902",
+          "phone": "617-726-2000",
+          "email": "marysmith@gmail.com",
+          "usertype": "Clinician",
+          "editicon": ""
+        },
+        {
+          "logo": "",
+          "name": "Smith Mary",
+          "npi": "2345678902",
+          "phone": "617-726-2000",
+          "email": "marysmith@gmail.com",
+          "usertype": "Clinician",
+          "editicon": ""
+        },
+        {
+          "logo": "",
+          "name": "Smith Mary",
+          "npi": "2345678902",
+          "phone": "617-726-2000",
+          "email": "marysmith@gmail.com",
+          "usertype": "Clinician",
+          "editicon": ""
+        },
+        {
+          "logo": "",
+          "name": "Smith Mary",
+          "npi": "2345678902",
+          "phone": "617-726-2000",
+          "email": "marysmith@gmail.com",
+          "usertype": "Clinician",
+          "editicon": ""
+        }
+      ]
+    }
+  },
+  "practicetin": {
+    "header": {
+      "title": "PRACTICE TIN DETAILS",
+      "count": "28",
+      "buttontext": "Add New TIN"
+    },
+    "content": {
+      "heading": [
+        { "key": "tin", "label": "TIN DETAILS" },
+        { "key": "startdate", "label": "DURATION" },
+        { "key": "enddate", "label": "" },
+        { "key": "editicon", "label": "" }
+      ],
+      "data": [
+        {
+          "tin": "3456782390",
+          "startdate": "01 Jan 2018",
+          "enddate": "31 Dec 2018",
+          "editicon": ""
+        },
+        {
+          "tin": "3456782390",
+          "startdate": "01 Jan 2018",
+          "enddate": "31 Dec 2018",
+          "editicon": ""
+        },
+        {
+          "tin": "3456782390",
+          "startdate": "01 Jan 2018",
+          "enddate": "31 Dec 2018",
+          "editicon": ""
+        },
+        {
+          "tin": "3456782390",
+          "startdate": "01 Jan 2018",
+          "enddate": "31 Dec 2018",
+          "editicon": ""
+        },
+        {
+          "tin": "3456782390",
+          "startdate": "01 Jan 2018",
+          "enddate": "31 Dec 2018",
+          "editicon": ""
+        },
+        {
+          "tin": "3456782390",
+          "startdate": "01 Jan 2018",
+          "enddate": "31 Dec 2018",
+          "editicon": ""
+        },
+        {
+          "tin": "3456782390",
+          "startdate": "01 Jan 2018",
+          "enddate": "31 Dec 2018",
+          "editicon": ""
+        }
+      ]
+    }
+  }
+}

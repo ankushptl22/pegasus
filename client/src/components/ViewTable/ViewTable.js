@@ -1,50 +1,57 @@
 import React from 'react';
-import {Table} from 'semantic-ui-react';
+import {Table,Segment} from 'semantic-ui-react';
 import PropTypes from "prop-types";
 import './ViewTable.less'
 
 class ViewTable extends React.Component{
+
   constructor(props) {
      super(props);
      this.state = {};
   }
 
 generateHeaders() {
-    const { cols, data } = this.props.ViewTableDataProp;
+
+    const { cols } = this.props.viewTableDataProp;
   
-    return cols.map(function(colData) {
-        return <Table.HeaderCell key={colData.key}>{colData.label}</Table.HeaderCell>;
+    return cols.map(function(colData,i) {
+        return <Table.HeaderCell key={i}>{colData.label}</Table.HeaderCell>;
     });
 }
 
 generateRows() {
 
-    const { cols, data } = this.props.ViewTableDataProp;
+    const { cols, data } = this.props.viewTableDataProp;
 
-    return data.map(function(item) {       
-        var cells = cols.map(function(colData) {
-            return <Table.Cell>{item[colData.key]}</Table.Cell>;
+    return data.map(function(item,index) {       
+        var cells = cols.map(function(colData,i) {
+            return <Table.Cell key={i}>{item[colData.key]}</Table.Cell>;
         });
-        return  <Table.Row key={item.id}>{cells}</Table.Row>;
+        return  <Table.Row key={index}>{cells}</Table.Row>;
     });
 }
 
-render() {
+render() {  
+  
     var headerComponents = this.generateHeaders(),
         rowComponents = this.generateRows();
 
+    const { Labels } = this.props.viewTableDataProp;
     return (
-             <Table celled>
+            <Segment basic>
+               <Table celled>
                   <Table.Header><Table.Row>{headerComponents}</Table.Row></Table.Header>
                   <Table.Body>{rowComponents}</Table.Body>
-             </Table>
+              </Table>
+              <p><b>{Labels}</b></p>
+            </Segment>
          );
      }
 
 }
 
 ViewTable.defaultProps = {
-  ViewTableDataProp: {
+  viewTableDataProp: {
     data: [ 
       { 
         "_QUARTER": "2018Q1", 
@@ -87,12 +94,13 @@ ViewTable.defaultProps = {
           "key": "_NON MET(-)",
           "label": "NON MET(-)" 
         }
-      ]
+      ],
+     Labels: "(+) - Met,  (-) - Not Met"
     }
   };
 
 ViewTable.propTypes = {
-  ViewTableDataProp: PropTypes.object.isRequired
+  viewTableDataProp: PropTypes.object.isRequired
 };
 
 export default ViewTable;

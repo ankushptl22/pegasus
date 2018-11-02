@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
-import { Grid, Label } from 'semantic-ui-react';
+import { Grid, Label, Icon, Progress } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
-
+import MasterProgressBar from '../../components/MasterProgressBar/MasterProgressBar';
+const subComponents = { Progress, Icon, MasterProgressBar, Link };
+const events = {};
+// const addToFavouriteHandler = () => {
+//   alert('clicked adsad');
+// }
 class MasterDataTables extends Component {
 
   constructor(props) {
     super(props);
-
     this.state = {
       columnLength: 1,
       columnsHead: [],
@@ -30,11 +34,10 @@ class MasterDataTables extends Component {
     let dataRow = [];
     const SubComponents = this.props.subComponents;
 
-    const heads = this.state.tableSchema;
+    const heads = this.props.tableSchema;
     const columnHeadRow = [];
-    this.state.tableData.map((data, i) => {
-      debugger;
-      this.state.tableSchema.map((schema, index) => {
+    this.props.tableData.map((data, i) => {
+      this.props.tableSchema.map((schema, index) => {
         let key = Object.keys(schema);
         //if data matches to schema start
         if (data[key] !== undefined) {
@@ -44,10 +47,13 @@ class MasterDataTables extends Component {
           let styleObject = {};
           const GridColumn = "Grid.Column";
           //header rows section start
-          // if (columns.length !== this.state.tableSchema.length) {
+          // if (columns.length !== this.props.tableSchema.length) {
           styleObject["key"] = key;
           styleObject["style"] = schema[key].style;
-          if (columns.length !== Object.keys(this.state.tableData[0]).length) {
+          let customColumnClass = `fig-${key}`
+          styleObject["className"] = `tablecolumn ${customColumnClass}`;
+
+          if (columns.length !== Object.keys(this.props.tableData[0]).length) {
             let headerComp = (null);
             if (schema[key].header.trim() === "") {
               if (componentObj.value !== undefined) {
@@ -109,7 +115,7 @@ class MasterDataTables extends Component {
           }
           else {
             dataColumns.push(
-              // <Grid.Column>
+              //<Grid.Column>
               //   {/* <Label> */}
               //   {data[key]}
               //   {/* </Label> */}
@@ -122,23 +128,34 @@ class MasterDataTables extends Component {
         //if data matches to schema end
       })
 
+      let routeObject = {
+        pathname: "/landingPage/MeasureDetails",
+        state: {
+          measureData: data
+        }
+      };
       dataColumns.push(
-        <Grid.Column style={{ width: '10%',top: '50%',position:'realtive',left:'20px'  }}>
-          <Link to="/landingPage/MeasureDetails" >
+        <Grid.Column style={{ width: '10%' }}>
+          <Link to={routeObject} >
             View Details
            </Link>
         </Grid.Column>
       )
+      dataColumns.push(
+        <Grid.Column style={{ width: '5%' }}>
+          <Icon name="download" />
+        </Grid.Column>
+      )
 
       dataRow.push(
-        <Grid.Row key={i} className="clickable" style={{ cursor: 'pointer' }}>
+        <Grid.Row key={i} className="tableRow" style={{ cursor: 'pointer' }}>
           {[...dataColumns]}
         </Grid.Row>)
 
       dataColumns = [];
     })
 
-    this.setState({ columnsHead: columns, columnLength: this.state.tableSchema.length, columnsData: dataRow });
+    this.setState({ columnsHead: columns, columnLength: this.props.tableSchema.length, columnsData: dataRow });
   }
 
   CreateDyanamicComponent = (componentName, propsArray) => {
@@ -149,16 +166,97 @@ class MasterDataTables extends Component {
 
   render() {
     return (
-      <div>
-        <Grid columns={this.state.columnLength}>
-          <Grid.Row>
-            {this.state.columnsHead}
-          </Grid.Row>
-          {this.state.columnsData}
-        </Grid>
-      </div>
+      <Grid className="table" columns={this.state.columnLength}>
+        <Grid.Row className="tableHead tableRow">
+          {this.state.columnsHead}
+        </Grid.Row>
+        {this.state.columnsData}
+      </Grid>
     );
   }
+}
+
+MasterDataTables.defaultProps = {
+  tableSchema: [
+    {
+      "favourite": {
+        "header": "",
+        "component": {
+          "name": "Icon",
+          "props": [
+            "name"
+          ],
+          "value": {
+            "name": "heart outline",
+            "favoruite": false
+          }
+        },
+        "style": {
+          "width": "10%",
+          "position": "relative",
+          "top": "50%"
+        },
+        "click": "addToFavouriteHandler"
+      }
+    },
+    {
+      "id": {
+        "header": "ID",
+        "style": {
+          "width": "5%",
+          "position": "relative",
+          "top": "50%"
+        }
+      }
+    },
+    {
+      "measure": {
+        "header": "MEASURE",
+        "style": {
+          "width": "30%",
+          "position": "relative",
+          "top": "50%"
+        }
+      }
+    },
+    {
+      "performance": {
+        "header": "ACHIEVED PERFORMANCE",
+        "component": {
+          "name": "MasterProgressBar",
+          "props": [
+            "progressData"
+          ]
+        },
+        "style": {
+          "width": "40%"
+        }
+      }
+    }
+
+  ],
+  tableData: [
+    {
+      "favourite": {
+        "name": "heart outline"
+      },
+      "id": "101",
+      "measure": "Melanoma: Overutilizzation of imaging",
+      "performance": {
+        "progressData": {
+          "percentPerformanceText": "Achieved Performance",
+          "percentPerformance": 66.05,
+          "cmsBenchMark": 45,
+          "isCmsBenchMark": true,
+          "registryAverage": 82,
+          "isRegistryAverage": true,
+          "difference": 5,
+          "mean": 5
+        }
+      }
+    }],
+  subComponents: subComponents,
+  events: events
 }
 
 export default MasterDataTables;
